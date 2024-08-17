@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+      <title>LML</title>
+      <link rel="icon" href="img/book.svg" type="image/svg+xml">
+      <link rel="stylesheet" href="style/reset.css" />
+      <link rel="stylesheet" href="style/style.css" >
+      <script src="script.js"  type="module"  ></script>
+      <script src="exList.js"   type="module"  ></script>
+   </head>
+   <body>
+      <header class="header">
+         <div class="container">
+            <div class="logo">
+               <h2>LML</h2>
+               <div class="tooltip">Learn Мудило Learn</div>
+            </div>
+            <div class="scrol-area">
+               <img src="img/left-arrow.svg" alt="" />
+               <h3>scroll area</h3>
+               <!-- <img class='img-scroll' src="img/scroll.svg" alt="">  -->
+               <img src="img/right-arrow.svg" alt="" />
+            </div>
+            <div class="serch">
+               <div class="search-area">
+                  <input type="text" placeholder="search..." />
+                  <button><img src="img/search-btn.svg" alt="" /></button>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main class="main main--calc-height">
+         <div class="container-main">
+            <div class="container-main__blocks">
+               <div class="container-main__block field-a">
+                  <h3>A</h3>                 
+               </div>
+               <div class="container-main__block field-b">
+                  <h3>B</h3> 
+               </div>
+                <div class="container-main__block field-c">
+                  <h3>C</h3>
+               </div>
+               <div class="container-main__block field-d">
+                  <h3>D</h3>
+               </div>
+               <div class="container-main__block field-e">
+                  <h3>E</h3>
+               </div>
+               <div class="container-main__block field-f">
+                  <h3>F</h3>
+               </div>
+               <div class="container-main__block field-g">
+                  <h3>G</h3>
+               </div>
+               <div class="container-main__block field-h">
+                  <h3>H</h3>
+               </div>
+               <div class="container-main__block field-i">
+                  <h3>I</h3>
+               </div>
+               <div class="container-main__block field-j">
+                  <h3>J</h3>
+               </div>
+               <div class="container-main__block field-k">
+                  <h3>K</h3>
+               </div>
+               <div class="container-main__block field-l">
+                  <h3>L</h3>
+               </div>
+               <div class="container-main__block field-m">
+                  <h3>M</h3>
+               </div>
+               <div class="container-main__block field-n">
+                  <h3>N</h3>
+               </div>
+               <div class="container-main__block field-o">
+                  <h3>O</h3>
+               </div>
+               <div class="container-main__block field-p">
+                  <h3>P</h3>
+               </div>
+               <div class="container-main__block field-q">
+                  <h3>Q</h3>
+               </div>
+               <div class="container-main__block field-r">
+                  <h3>R</h3>
+               </div>
+               <div class="container-main__block field-s">
+                  <h3>S</h3>
+               </div>
+               <div class="container-main__block field-t">
+                  <h3>T</h3>
+               </div>
+               <div class="container-main__block field-u">
+                  <h3>U</h3>
+               </div>
+               <div class="container-main__block field-v">
+                  <h3>V</h3>
+               </div>
+               <div class="container-main__block field-w">
+                  <h3>W</h3>
+               </div>
+               <div class="container-main__block field-x">
+                  <h3>X</h3>
+               </div>
+               <div class="container-main__block field-y">
+                  <h3>Y</h3>
+               </div>
+               <div class="container-main__block field-z">
+                  <h3>Z</h3>
+               </div>
+            </div>
+
+            <!-- below block is popup window of  -->
+            <div class="container-main__phon-around" style='display:none'>
+               <div class="container-main__popup adding-area-1" style='display:none'>
+                  <div class="main-popup">
+                    
+                     <div class="main-popup__btn-escape-area">
+                        <div class="save-status">
+                           <div class="save-status-block "></div>
+                        </div>
+                        <button class="btn-close">
+                           <span></span>
+                           <span></span>
+                        </button>
+                     </div>
+
+                     <form submit="#" class="form-type-1">
+
+                        <div class="main-popup__input-section">
+                           <input type="text" class='input-text-form-1 submit-form-1' placeholder="word" /><div id="dropDownListWords"></div>
+                           <input type="text" class='input-transcription-form-1 submit-form-1' placeholder="transcription(optional)" />
+                           <input type="text" 
+                           class='input-description-form-1 submit-form-1' placeholder="description" />
+                        </div>
+
+                        <div class="main_popup__btns ">
+                           <button class="btn-popup__sets-colocation ">colocation</button>
+                           <button class="btn-save btn-popup__sets-save">save</button>
+                        </div>
+
+                     </form>
+
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+      </main>
+
+      <button class="btn-nav btn-nav--calc-position">
+         <img class="arrow" src="img/arrow.svg" alt="" />
+      </button>
+
+      <nav class="nav nav--visible">
+         <div class="container-nav">
+            <button class="nav__btn nav__btn-1">
+               Add new word with descriptions
+            </button>
+            <button class="nav__btn nav__btn-2">
+               Add array words without descriptions
+            </button>
+
+            <button class="nav__btn nav__btn-3">Show last added list</button>
+            <button class="nav__btn nav__btn-4">Set last list</button>
+         </div>
+      </nav>
+
+      <footer class="footer">
+         <div class="name-autor">@Andrew_Havr</div>
+      </footer>
+
+      <!-- <script type="module" src="script.js" src="exList.js"></script> -->
+   </body>
+</html>
