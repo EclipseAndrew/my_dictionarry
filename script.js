@@ -156,9 +156,12 @@ btnNav1.addEventListener("click", () => {
          }
       });
 
-      inputWord.addEventListener("blur", function () {
+      inputWord.addEventListener("blur", ()=>  {
          dropdown.style.display = "none";
-      });
+   });
+      dropdown.addEventListener("mousedown", (event) => {
+         event.preventDefault(); 
+     });
    } else {
       mainPhon.style.display = "none";
       area1.style.display = "none";
