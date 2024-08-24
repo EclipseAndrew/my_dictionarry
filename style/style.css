@@ -93,16 +93,19 @@ transition: opacity 0.3s, transform 0.3s;
 }
 
 .search-area {
-   max-width: fit-content;
+   width: fit-content;
+   display: flex;
    background-color: rgb(255, 255, 255);
    padding: 5px 5px 5px 10px;
    margin-top: 3px;
    border-radius: 15px;
+   position: relative;
 }
 
 .search-area input {
    border: none;
    border-bottom: 1px solid black;
+   font-size: 19px;
    outline: none;
    transition: box-shadow 0.3s;
 }
@@ -110,6 +113,26 @@ transition: opacity 0.3s, transform 0.3s;
 .search-area input:hover,
 .search-area input:focus {
    box-shadow: 0 1.2px 0 black;
+}
+
+.dropdown-container{ 
+   width: 85%;
+   margin-top: 1.6px;
+   padding-left: 2px ;
+   border-radius: 0 0 5px 5px;
+   position: absolute;
+   color:#000;
+   background: #ffffff;
+   font-family: sans-serif;
+   font-size: 19px;
+   z-index: 2;
+}
+.drop-item {
+   width: inherit;
+}
+
+.highlight{
+   background: #b18383;
 }
 
 .search-area button {
@@ -146,16 +169,19 @@ transition: opacity 0.3s, transform 0.3s;
    position: relative; 
 }
 
+.cursor-grab {
+   cursor: grab;
+}
+
 .container-main__block {
    height: inherit;
    width: 250px;
-   padding: 0 10px;
+   padding: 0 5px;
    background: #b7ddb4;
    flex-shrink: 0;
    overflow-y: scroll; 
    scrollbar-width: none;
    padding-bottom: 70px;
-   /* position: relative  */
 }
 
 .container-main__block h3 {
@@ -176,6 +202,8 @@ transition: opacity 0.3s, transform 0.3s;
 
 .word-container {
 overflow-x: visible;
+display: flex;
+justify-content: space-between;
 }
 
 .field-a{
@@ -186,6 +214,7 @@ overflow-x: visible;
    overflow: scroll;
    scrollbar-width: none;
    text-overflow:ellipsis;
+ position: relative;
 } 
 
 .minor-descript {
@@ -200,7 +229,7 @@ overflow-x: visible;
    z-index: 11;
 }
 
-.main-descript:hover + .minor-descript {
+.main-descript:hover ~ .minor-descript {
    display: block;
 }
 
@@ -208,12 +237,23 @@ overflow-x: visible;
    display: block;
 }
 
+.aside-container {
+   display: flex;
+}
+.delBtn {
+ padding:0; 
+ border: none;
+    background: none;
+}
+
+.delBtn img {
+   width: 20px;
+}
 .container-main__phon-around {
    position: absolute;
    width: inherit;
    height: inherit;
    background-color: rgba(60, 77, 64, 0.5);z-index: 1;
-
 }
 
 .container-main__popup {
@@ -224,6 +264,7 @@ overflow-x: visible;
    top: 40%;
    left: 50%;
    transform: translate(-50%, -50%);
+
 }
 
 .area-1 {
@@ -338,11 +379,13 @@ overflow-x: visible;
 #dropDownListWords{
   height: fit-content;
   width: 253px;
+  font-size: 20px;
+  font-family: sans-serif;
   padding-left: 5px;
   border-radius: 5px;
   position:absolute;
   top: 100%;
-  background: #cdcbcb;
+  background: #eed7ab;
  
 }
 

@@ -1,0 +1,16 @@
+{
+  "name": "my_dictionarry",
+  "version": "1.0.0",
+  "description": "Name: \"My dic\"(dictionary)",
+  "main": "exList.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.8.0"
+    
+  }
+}

@@ -25,8 +25,10 @@
             </div>
             <div class="serch">
                <div class="search-area">
-                  <input type="text" placeholder="search..." />
-                  <button><img src="img/search-btn.svg" alt="" /></button>
+                  <div class="search_container">
+                  <input type="text" class='search-input' placeholder="search..." />
+                  <div class="dropdown-container"> </div></div>
+                  <button class="search-btn"><img src="img/search-btn.svg" alt="" /></button>
                </div>
             </div>
          </div>
@@ -34,7 +36,7 @@
 
       <main class="main main--calc-height">
          <div class="container-main">
-            <div class="container-main__blocks">
+            <div class="container-main__blocks ">
                <div class="container-main__block field-a">
                   <h3>A</h3>                 
                </div>
@@ -134,7 +136,7 @@
 
                         <div class="main-popup__input-section">
                            <input type="text" class='input-text-form-1 submit-form-1' placeholder="word" /><div id="dropDownListWords"></div>
-                           <input type="text" class='input-transcription-form-1 submit-form-1' placeholder="transcription(optional)" />
+                           
                            <input type="text" 
                            class='input-description-form-1 submit-form-1' placeholder="description" />
                         </div>

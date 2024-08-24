@@ -437,6 +437,5 @@ const exampleList = {
      }
    ]
  }
-console.log(12)
 //  export default exampleList; 
 
