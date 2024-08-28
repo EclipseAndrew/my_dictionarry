@@ -1,5 +1,4 @@
-import exampleList from './exList.js'
-console.log(exampleList);
+import exampleList from "./exList.js";
 
 const containerMain = document.querySelector(".container-main__blocks");
 const scrollAreaTopNav = document.querySelector(".scrol-area");
@@ -326,8 +325,7 @@ const pushWordInList = (wordElem) => {
       z: [],
    };
    const storedWords =
-      JSON.parse(localStorage.getItem("wordsList")) ||
-      tamplateOfSave; //exList import at the beginning
+      JSON.parse(localStorage.getItem("wordsList")) || tamplateOfSave;
 
    const firstLetterOfSaveWord = wordElem.word[0];
    const wordsList = storedWords[firstLetterOfSaveWord];
@@ -382,7 +380,7 @@ const renderWords = (wordList) => {
          const transcriptionSpan = minorParagraph.querySelector("div");
 
          if (elem.transcription[1]) {
-            transcriptionSpan.classList.add("transkript")
+            transcriptionSpan.classList.add("transkript");
             transcriptionSpan.innerHTML = `${elem.transcription[0]} &nbsp <img src="img/speaker.png" style="height: 20px;" /> `;
             transcriptionSpan.addEventListener("click", () => {
                const audio = new Audio(elem.transcription[1]);
@@ -412,8 +410,6 @@ const renderWords = (wordList) => {
    }
 };
 
-
-
 const deleteOldWordList = () => {
    const containers = document.querySelectorAll(".container-main__block");
    containers.forEach((container) => {
@@ -422,9 +418,19 @@ const deleteOldWordList = () => {
    });
 };
 
-const renderList = JSON.parse(localStorage.getItem("wordsList")) || exampleList;
-document.addEventListener('DOMContentLoaded', renderWords(renderList));
+const renderList = JSON.parse(localStorage.getItem("wordsList"))//!!!!! It for render already done example of dictionary from import obj
+   ? JSON.parse(localStorage.getItem("wordsList"))
+   : localStorage.setItem("wordsList", JSON.stringify(exampleList));
+document.addEventListener("DOMContentLoaded", () => renderWords(renderList));
 
+// addEventListener(
+//    "DOMContentLoaded",
+//    () => {
+//       const storedWordsList = JSON.parse(localStorage.getItem("wordsList"));
+//       renderWords(storedWordsList);
+//    },
+//    { once: true }
+// );
 
 //containerMain variable created at the beginning of this doc
 containerMain.addEventListener("click", (e) => {
@@ -454,14 +460,8 @@ const deleteWordInObjectList = (wordArgument) => {
    localStorage.setItem("wordsList", JSON.stringify(wordsObjectList));
 };
 
-addEventListener(
-   "DOMContentLoaded",
-   () => {
-      const storedWordsList = JSON.parse(localStorage.getItem("wordsList"));
-      renderWords(storedWordsList);
-   },
-   { once: true }
-);
+
+
 
 function handleMouseOver(event) {
    if (event.target.classList.contains("main-descript")) {
