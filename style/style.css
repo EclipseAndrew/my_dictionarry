@@ -175,7 +175,7 @@ transition: opacity 0.3s, transform 0.3s;
 
 .container-main__block {
    height: inherit;
-   width: 250px;
+   width: 220px;
    padding: 0 5px;
    background: #b7ddb4;
    border-radius: 10px;
@@ -245,7 +245,7 @@ justify-content: space-between;
  display: flex;
  align-items: center;
  border-radius: 3px;
- 
+
 }
 
 .aside-container {

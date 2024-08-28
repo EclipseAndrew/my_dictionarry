@@ -1,4 +1,4 @@
-// import exampleList from './exList.js'
+import exampleList from './exList.js'
 // console.log(exampleList);
 const containerMain = document.querySelector(".container-main__blocks");
 const scrollAreaTopNav = document.querySelector(".scrol-area");
@@ -325,7 +325,7 @@ const pushWordInList = (wordElem) => {
       z: [],
    };
    const storedWords =
-      JSON.parse(localStorage.getItem("wordsList")) /*|| exampleList*/ ||
+      JSON.parse(localStorage.getItem("wordsList")) || exampleList ||
       tamplateOfSave; //exList import at the beginning
 
    const firstLetterOfSaveWord = wordElem.word[0];
