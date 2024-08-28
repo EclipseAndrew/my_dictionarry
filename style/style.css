@@ -178,6 +178,7 @@ transition: opacity 0.3s, transform 0.3s;
    width: 250px;
    padding: 0 5px;
    background: #b7ddb4;
+   border-radius: 10px;
    flex-shrink: 0;
    overflow-y: scroll; 
    scrollbar-width: none;
@@ -224,6 +225,7 @@ justify-content: space-between;
    padding: 10px;
    background-color: #f9f9f9;
    border: 1px solid #ccc;
+   border-radius: 10px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    white-space: nowrap; 
    z-index: 11;
@@ -235,6 +237,15 @@ justify-content: space-between;
 
 .minor-descript:hover {
    display: block;
+}
+
+.transkript {
+ width: fit-content;
+ background-color: #b6ccf5;
+ display: flex;
+ align-items: center;
+ border-radius: 3px;
+ 
 }
 
 .aside-container {
@@ -502,6 +513,11 @@ justify-content: space-between;
    border-radius: 30px;
    text-shadow: 0px 3px 5px #3d3d3d;
 }
+
+/*disabled from 100% to 50% of visibility inactive buttons */
+.container-nav button:not(:first-child) {
+   opacity: 50%;
+}  
 
 .footer {
    height: 24px;

@@ -26,28 +26,22 @@ let scrollLeft;
 
 containerMain.addEventListener("mousedown", (e) => {
    if (e.target.tagName === "IMG" || e.target.tagName === "BUTTON") {
-      return; // Нічого не робимо, якщо це кнопка
+      return;
    }
 
    isDown = true;
    containerMain.style.overflowX = "scroll";
-   // containerMain.classList.add('active');
-   // containerMain.classList.add('no-select');
    startX = e.pageX - containerMain.offsetLeft;
    scrollLeft = containerMain.scrollLeft;
 });
 
 containerMain.addEventListener("mouseleave", () => {
    isDown = false;
-   // containerMain.classList.remove('no-select');
-   // containerMain.classList.remove('active');
 });
 
 containerMain.addEventListener("mouseup", () => {
    isDown = false;
    containerMain.style.overflowX = "hidden";
-   // containerMain.classList.remove('no-select');
-   // containerMain.classList.remove('active');
    containerMain.classList.remove("cursor-grab");
 });
 
@@ -55,7 +49,7 @@ containerMain.addEventListener("mousemove", (e) => {
    if (!isDown) return;
 
    if (e.target.tagName === "IMG" || e.target.tagName === "BUTTON") {
-      return; // Нічого не робимо, якщо це кнопка
+      return;
    }
    e.preventDefault();
    const x = e.pageX - containerMain.offsetLeft;
@@ -131,9 +125,10 @@ btnNav1.addEventListener("click", () => {
                );
                const suggestions = await response.json();
 
-               if (requestId !== currentRequestId) { //alternative abortController()
+               if (requestId !== currentRequestId) {
+                  //alternative abortController()
                   return;
-              }
+               }
 
                suggestions.forEach((suggestion) => {
                   const suggestionElement = document.createElement("div");
@@ -156,12 +151,12 @@ btnNav1.addEventListener("click", () => {
          }
       });
 
-      inputWord.addEventListener("blur", ()=>  {
+      inputWord.addEventListener("blur", () => {
          dropdown.style.display = "none";
-   });
+      });
       dropdown.addEventListener("mousedown", (event) => {
-         event.preventDefault(); 
-     });
+         event.preventDefault();
+      });
    } else {
       mainPhon.style.display = "none";
       area1.style.display = "none";
@@ -231,7 +226,7 @@ const wordProcessing = async (word, description) => {
       setTimeout(() => {
          checkStatus.classList.remove("save-status--negative");
       }, 3000);
-   } else if (/[^a-zA-Z'-]/.test(word)) {
+   } else if (/[^a-zA-Z' (),-]/.test(word)) {
       fastRemoveClass(checkStatus);
       checkStatus.classList.add("save-status--negative");
       checkStatus.innerHTML = "Withhout symbols or choose language";
@@ -300,39 +295,6 @@ function findAudioUrl(data) {
    return null;
 }
 
-// async function getDesc(word, targetLanguage) {
-//    const apiKey = 'APIKEY';
-//    const endpoint = 'https://api.openai.com/v1/completions';
-//    const prompt = `Translate the word "${word}" to ${targetLanguage}. Provide up to 5 possible translations.`;
-
-//    try {
-//        const response = await fetch(endpoint, {
-//            method: 'POST',
-//            headers: {
-//                'Authorization': `Bearer ${apiKey}`,
-//                'Content-Type': 'application/json'
-//            },
-//            body: JSON.stringify({
-//                model: 'gpt-3.5-turbo',
-//                prompt: prompt,
-//                max_tokens: 100,
-//                temperature: 0.7
-//            })
-//        });
-
-//        if (!response.ok) {
-//            throw new Error(`Network response was not ok: ${response.statusText}`);
-//        }
-
-//        const data = await response.json();
-//        const translations = data.choices[0].text.trim().split('\n').slice(0, 5);
-//        return translations;
-//    } catch (error) {
-//        console.error('Error fetching translations:', error);
-//        return [];
-//    }
-// }
-
 const pushWordInList = (wordElem) => {
    const tamplateOfSave = {
       a: [],
@@ -363,7 +325,8 @@ const pushWordInList = (wordElem) => {
       z: [],
    };
    const storedWords =
-      JSON.parse(localStorage.getItem("wordsList")) || tamplateOfSave;
+      JSON.parse(localStorage.getItem("wordsList")) /*|| exampleList*/ ||
+      tamplateOfSave; //exList import at the beginning
 
    const firstLetterOfSaveWord = wordElem.word[0];
    const wordsList = storedWords[firstLetterOfSaveWord];
@@ -412,13 +375,14 @@ const renderWords = (wordList) => {
          wordContainer.appendChild(mainParagraph);
 
          const minorParagraph = document.createElement("p");
-         minorParagraph.innerHTML = `&nbsp${elem.word} <br> <span>${elem.transcription[0]}</span> <br> &nbsp${elem.description}`;
+         minorParagraph.innerHTML = `&nbsp${elem.word} <br>  <div>${elem.transcription[0]}</div>  &nbsp${elem.description}`;
          minorParagraph.classList.add("minor-descript");
          wordContainer.appendChild(minorParagraph);
-         const transcriptionSpan = minorParagraph.querySelector("span");
+         const transcriptionSpan = minorParagraph.querySelector("div");
 
          if (elem.transcription[1]) {
-            transcriptionSpan.style.backgroundColor = "#b6ccf5";
+            transcriptionSpan.classList.add("transkript")
+            transcriptionSpan.innerHTML = `${elem.transcription[0]} &nbsp <img src="img/speaker.png" style="height: 20px;" /> `;
             transcriptionSpan.addEventListener("click", () => {
                const audio = new Audio(elem.transcription[1]);
                audio.play();
