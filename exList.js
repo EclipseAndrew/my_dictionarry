@@ -5801,7 +5801,7 @@ const exampleList = {
        }
    ],
    "z": []
-}
+};
 
  export default exampleList; 
 

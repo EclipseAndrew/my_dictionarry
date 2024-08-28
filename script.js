@@ -1,5 +1,6 @@
 import exampleList from './exList.js'
-// console.log(exampleList);
+console.log(exampleList);
+
 const containerMain = document.querySelector(".container-main__blocks");
 const scrollAreaTopNav = document.querySelector(".scrol-area");
 const scrollAreaBottomNav = document.querySelector(".container-nav");
@@ -325,7 +326,7 @@ const pushWordInList = (wordElem) => {
       z: [],
    };
    const storedWords =
-      JSON.parse(localStorage.getItem("wordsList")) || exampleList ||
+      JSON.parse(localStorage.getItem("wordsList")) ||
       tamplateOfSave; //exList import at the beginning
 
    const firstLetterOfSaveWord = wordElem.word[0];
@@ -411,6 +412,8 @@ const renderWords = (wordList) => {
    }
 };
 
+
+
 const deleteOldWordList = () => {
    const containers = document.querySelectorAll(".container-main__block");
    containers.forEach((container) => {
@@ -418,6 +421,10 @@ const deleteOldWordList = () => {
       paragraphs.forEach((p) => p.remove());
    });
 };
+
+const renderList = JSON.parse(localStorage.getItem("wordsList")) || exampleList;
+document.addEventListener('DOMContentLoaded', renderWords(renderList));
+
 
 //containerMain variable created at the beginning of this doc
 containerMain.addEventListener("click", (e) => {
