@@ -418,19 +418,18 @@ const deleteOldWordList = () => {
    });
 };
 
-const renderList = JSON.parse(localStorage.getItem("wordsList"))//!!!!! It for render already done example of dictionary from import obj
+JSON.parse(localStorage.getItem("wordsList"))
    ? JSON.parse(localStorage.getItem("wordsList"))
    : localStorage.setItem("wordsList", JSON.stringify(exampleList));
-document.addEventListener("DOMContentLoaded", () => renderWords(renderList));
 
-// addEventListener(
-//    "DOMContentLoaded",
-//    () => {
-//       const storedWordsList = JSON.parse(localStorage.getItem("wordsList"));
-//       renderWords(storedWordsList);
-//    },
-//    { once: true }
-// );
+addEventListener(
+   "DOMContentLoaded",
+   () => {
+      const storedWordsList = JSON.parse(localStorage.getItem("wordsList"));
+      renderWords(storedWordsList);
+   },
+   { once: true }
+);
 
 //containerMain variable created at the beginning of this doc
 containerMain.addEventListener("click", (e) => {
@@ -459,9 +458,6 @@ const deleteWordInObjectList = (wordArgument) => {
 
    localStorage.setItem("wordsList", JSON.stringify(wordsObjectList));
 };
-
-
-
 
 function handleMouseOver(event) {
    if (event.target.classList.contains("main-descript")) {
