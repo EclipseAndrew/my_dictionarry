@@ -1,6 +1,17 @@
 const exampleList = {
    "a": [
        {
+           "word": "ability",
+           "transcription": [
+               "/əˈ.bɪl.ɪ.ti/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/ability-us.mp3"
+           ],
+           "description": [
+               "здібності"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "above",
            "transcription": [
                "/əˈbʌv/",
@@ -8,6 +19,17 @@ const exampleList = {
            ],
            "description": [
                "вище"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "abroad",
+           "transcription": [
+               "/əˈbɹɔːd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/abroad-us.mp3"
+           ],
+           "description": [
+               "за кордоном, не вдома"
            ],
            "countOfRepeatWord": 1
        },
@@ -18,9 +40,64 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/absence-us.mp3"
            ],
            "description": [
-               "відсутність"
+               "відсутність, відлучка"
+           ],
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "accept",
+           "transcription": [
+               "/ækˈsɛpt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/accept-uk.mp3"
+           ],
+           "description": [
+               "прийняти, допускати"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "access",
+           "transcription": [
+               "/ˈæksɛs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/access-1-us.mp3"
+           ],
+           "description": [
+               "доступ"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "accommodation",
+           "transcription": [
+               "/ə.ˌkɒm.ə.ˈdeɪ.ʃən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/accommodation-uk.mp3"
+           ],
+           "description": [
+               "вигода, проживання, компроміс"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "accompany",
+           "transcription": [
+               "/ə.ˈkʌm.pə.ni/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/accompany-us.mp3"
+           ],
+           "description": [
+               "супроводжувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "accomplish",
+           "transcription": [
+               "/əˈkɐm.plɪʃ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/accomplish-us.mp3"
+           ],
+           "description": [
+               "виконати, досягати, завершувати"
+           ],
+           "countOfRepeatWord": 2
        },
        {
            "word": "accord",
@@ -45,6 +122,50 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "accuse",
+           "transcription": [
+               "/əˈkjuːz/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/accuse-us.mp3"
+           ],
+           "description": [
+               "звинувачувати, винити, обвинувачувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "accustom",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "звикати, привчати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "accustomed",
+           "transcription": [
+               "/ə.ˈkʌs.təmd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/accustomed-ca.mp3"
+           ],
+           "description": [
+               "звик, звиклий, привчаний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "ache",
+           "transcription": [
+               "/eɪk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/ache-1-us.mp3"
+           ],
+           "description": [
+               "біль, тупий біль"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "acquaintance",
            "transcription": [
                "/əˈkweɪntəns/",
@@ -63,6 +184,17 @@ const exampleList = {
            ],
            "description": [
                "погоджуватися"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "acquire",
+           "transcription": [
+               "/əˈkwaɪə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/acquire-us.mp3"
+           ],
+           "description": [
+               "придбати, добути, досягти, одержати"
            ],
            "countOfRepeatWord": 1
        },
@@ -122,13 +254,101 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "address",
+           "transcription": [
+               "/æˈdɹɛs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/address-uk.mp3"
+           ],
+           "description": [
+               "адреса"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "address this",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "вирішити це"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "adjacent",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "суміжні, прилеглі"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "adjust",
+           "transcription": [
+               "/əˈdʒʌst/",
+               null
+           ],
+           "description": [
+               "налаштовувати, коригувати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "admire",
+           "transcription": [
+               "/ədˈmaɪə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/admire-us.mp3"
+           ],
+           "description": [
+               "бажати, захоплюватись"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "admission",
+           "transcription": [
+               "/ædˈmɪʃ.ən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/admission-uk.mp3"
+           ],
+           "description": [
+               "доступ, допуск"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "admit",
+           "transcription": [
+               "/ədˈmɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/admit-us.mp3"
+           ],
+           "description": [
+               "визнавати, допускати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "admonish",
            "transcription": [
                "/ədˈmɒn.ɪʃ/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/admonish-uk.mp3"
            ],
            "description": [
-               "докоряти, застерігати, умовляти"
+               "застерігати, нагадувати, надоумити"
+           ],
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "admonition",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "застереження, зауваження"
            ],
            "countOfRepeatWord": 1
        },
@@ -140,6 +360,17 @@ const exampleList = {
            ],
            "description": [
                "шум, суєта"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "adopt",
+           "transcription": [
+               "/əˈdɒpt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/adopt-us.mp3"
+           ],
+           "description": [
+               "сприймати, запозичувати"
            ],
            "countOfRepeatWord": 1
        },
@@ -177,6 +408,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "advance",
+           "transcription": [
+               "/ədˈvaːns/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/advance-us.mp3"
+           ],
+           "description": [
+               "заздалегідь, просування вперед"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "advantage",
            "transcription": [
                "/ədˈvɑːn.tɪdʒ/",
@@ -199,6 +441,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "advert",
+           "transcription": [
+               "/ˈædvɜː(ɹ)t/",
+               null
+           ],
+           "description": [
+               "реклама, оголошення"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "advertising",
            "transcription": [
                "/ˈædvə(ɹ)ˌtaɪzɪŋ/",
@@ -206,6 +459,17 @@ const exampleList = {
            ],
            "description": [
                "реклам"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "affair",
+           "transcription": [
+               "/əˈfɛə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/affair-us.mp3"
+           ],
+           "description": [
+               "роман, історія, пригода"
            ],
            "countOfRepeatWord": 1
        },
@@ -221,6 +485,50 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "affectionate",
+           "transcription": [
+               "/əˈfɛkʃənət/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/affectionate-1-us.mp3"
+           ],
+           "description": [
+               "ніжний, ласкавий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "affirmation",
+           "transcription": [
+               "/æfɝˈmeɪʃn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/affirmation-us.mp3"
+           ],
+           "description": [
+               "урочиста заява, стверджування"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "afford",
+           "transcription": [
+               "/əˈfɔːd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/afford-us.mp3"
+           ],
+           "description": [
+               "дозволити собі"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "affrord",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "дозволити собі"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "afraid(terified, horrified)",
            "transcription": [
                "",
@@ -228,6 +536,17 @@ const exampleList = {
            ],
            "description": [
                "наляканий, жахнувся"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "afterword",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "потім, згодом, пізніше"
            ],
            "countOfRepeatWord": 1
        },
@@ -254,15 +573,26 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "ahead",
+           "transcription": [
+               "/əˈhɛd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/ahead-us.mp3"
+           ],
+           "description": [
+               "попереду"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "aid",
            "transcription": [
                "/eɪd/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/aid-us.mp3"
            ],
            "description": [
-               "допомога"
+               "рити, копати"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "align",
@@ -272,6 +602,17 @@ const exampleList = {
            ],
            "description": [
                "вирівняти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "alike",
+           "transcription": [
+               "/əˈlaɪk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/alike-us.mp3"
+           ],
+           "description": [
+               "однаковий, такий самий"
            ],
            "countOfRepeatWord": 1
        },
@@ -364,13 +705,90 @@ const exampleList = {
            "countOfRepeatWord": 3
        },
        {
+           "word": "aloud",
+           "transcription": [
+               "/əˈlaʊd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/aloud-us.mp3"
+           ],
+           "description": [
+               "вголос, голосно"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "alter",
+           "transcription": [
+               "/ˈɑl.tɚ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/alter-us.mp3"
+           ],
+           "description": [
+               "змінювати, міняти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "although",
+           "transcription": [
+               "/ɔːlˈðəʊ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/although-us.mp3"
+           ],
+           "description": [
+               "хоча, не дивлячись на те що"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "amount",
+           "transcription": [
+               "/əˈmaʊnt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/amount-us.mp3"
+           ],
+           "description": [
+               "сума, вага, кількість, обсяг"
+           ],
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "amuse",
+           "transcription": [
+               "/əˈmjuːz/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/amuse-uk.mp3"
+           ],
+           "description": [
+               "розважати, забавляти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "ancestor",
+           "transcription": [
+               "/ˈæn.sɛs.tə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/ancestor-us.mp3"
+           ],
+           "description": [
+               "предок"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "ancient",
            "transcription": [
                "/ˈeɪn.ʃənt/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/ancient-us.mp3"
            ],
            "description": [
-               "давній, античний"
+               "давній, колишній"
+           ],
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "angle",
+           "transcription": [
+               "/ˈæŋ.ɡəl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/angle-us.mp3"
+           ],
+           "description": [
+               "кут"
            ],
            "countOfRepeatWord": 1
        },
@@ -397,6 +815,50 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "angular",
+           "transcription": [
+               "/-lɑɹ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/angular-us.mp3"
+           ],
+           "description": [
+               "кутовий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "anniversary",
+           "transcription": [
+               "/ˌænɪˈvɜːs(ə)ɹi/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/anniversary-uk.mp3"
+           ],
+           "description": [
+               "річниця, річний, щорічний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "announce",
+           "transcription": [
+               "/əˈnaʊns/",
+               null
+           ],
+           "description": [
+               "повідомляти, оголошувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "annual",
+           "transcription": [
+               "/ˈæn.ju.əl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/annual-us.mp3"
+           ],
+           "description": [
+               "річний, щорічний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "anticipate",
            "transcription": [
                "/ænˈtɪs.ɪ.peɪt/",
@@ -404,6 +866,17 @@ const exampleList = {
            ],
            "description": [
                "передбачити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "anxious",
+           "transcription": [
+               "/ˈaŋ(k)ʃəs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/anxious-us.mp3"
+           ],
+           "description": [
+               "тривожний, заклопотаний"
            ],
            "countOfRepeatWord": 1
        },
@@ -419,13 +892,46 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "apart",
+           "transcription": [
+               "/əˈpɑː(ɹ)t/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/apart-us.mp3"
+           ],
+           "description": [
+               "осторонь, на відстані, окремо"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "apparently",
            "transcription": [
                "/əˈpaɹəntli/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/apparently-us.mp3"
            ],
            "description": [
-               "мабуть"
+               "мабуть, очевидно"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "apparently oblivious",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "мабуть непомічаючи"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "appeal",
+           "transcription": [
+               "/əˈpiːl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/appeal-au.mp3"
+           ],
+           "description": [
+               "звернення"
            ],
            "countOfRepeatWord": 1
        },
@@ -447,9 +953,9 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/appearance-us.mp3"
            ],
            "description": [
-               "вигляд, виступ, явище"
+               "зовнішній вигляд"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "appears",
@@ -474,6 +980,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "applicant",
+           "transcription": [
+               "/ˈæp.lə.kɪnt/",
+               null
+           ],
+           "description": [
+               "кандидат, заявник, претендент"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "applie",
            "transcription": [
                "",
@@ -485,13 +1002,46 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "apply",
+           "transcription": [
+               "/əˈplaɪ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/apply-1-us.mp3"
+           ],
+           "description": [
+               "застосовувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "appoint",
+           "transcription": [
+               "/əˈpɔɪnt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/appoint-uk.mp3"
+           ],
+           "description": [
+               "призначити, вирішити"
+           ],
+           "countOfRepeatWord": 3
+       },
+       {
            "word": "approach",
            "transcription": [
                "/əˈpɹəʊt͡ʃ/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/approach-us.mp3"
            ],
            "description": [
-               "підхід, настання"
+               "підхід, починати переговори, наближатися"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "appropriate",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "відпоідний"
            ],
            "countOfRepeatWord": 1
        },
@@ -502,9 +1052,31 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/approve-uk.mp3"
            ],
            "description": [
-               "погоджувати, затвердити"
+               "схвалити, затвердити"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "arise",
+           "transcription": [
+               "/əˈɹaɪz/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/arise-us.mp3"
+           ],
+           "description": [
+               "виникають, бути наслідком"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "arrange",
+           "transcription": [
+               "/əˈɹeɪndʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/arrange-us.mp3"
+           ],
+           "description": [
+               "впорядковувати, розташувати"
+           ],
+           "countOfRepeatWord": 2
        },
        {
            "word": "array",
@@ -518,6 +1090,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "arrearages",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "борги"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "arrow",
            "transcription": [
                "/ˈæɹ.əʊ/",
@@ -525,6 +1108,39 @@ const exampleList = {
            ],
            "description": [
                "стрілка"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "articulate",
+           "transcription": [
+               "/ɑː(ɹ)ˈtɪk.jʊ.lət/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/articulate-1-uk.mp3"
+           ],
+           "description": [
+               "артикулювати, висловлюватись ясно"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "as well as",
+           "transcription": [
+               "/əz ˈwɛl æz/",
+               null
+           ],
+           "description": [
+               "так добре як"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "ashamed",
+           "transcription": [
+               "/əˈʃeɪmd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/ashamed-us.mp3"
+           ],
+           "description": [
+               "засоромлений"
            ],
            "countOfRepeatWord": 1
        },
@@ -546,9 +1162,9 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/aside-us.mp3"
            ],
            "description": [
-               "вбік"
+               "осторонь, збоку"
            ],
-           "countOfRepeatWord": 2
+           "countOfRepeatWord": 3
        },
        {
            "word": "assault",
@@ -557,7 +1173,18 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/assault-us.mp3"
            ],
            "description": [
-               ""
+               "нападати, штурмувати, діяти різко"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "assess",
+           "transcription": [
+               "/əˈsɛs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/assess-us.mp3"
+           ],
+           "description": [
+               "оцінити(розмір шкоди), оподатковувати"
            ],
            "countOfRepeatWord": 1
        },
@@ -571,6 +1198,28 @@ const exampleList = {
                "призначати, доручати"
            ],
            "countOfRepeatWord": 3
+       },
+       {
+           "word": "assume",
+           "transcription": [
+               "/əˈsuːm/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/assume-uk.mp3"
+           ],
+           "description": [
+               "вважати, припускати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "assumption",
+           "transcription": [
+               "/əˈsʌmp.ʃən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/assumption-us.mp3"
+           ],
+           "description": [
+               "припущення"
+           ],
+           "countOfRepeatWord": 1
        },
        {
            "word": "assure",
@@ -595,6 +1244,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "astonishing",
+           "transcription": [
+               "/əˈstɒnɪʃɪŋ/",
+               null
+           ],
+           "description": [
+               "вражаючий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "attach",
            "transcription": [
                "/əˈtætʃ/",
@@ -606,15 +1266,81 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "attempt",
+           "transcription": [
+               "/əˈtɛmpt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/attempt-us.mp3"
+           ],
+           "description": [
+               "спроба, намагання"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "attend",
+           "transcription": [
+               "/əˈtɛnd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/attend-us.mp3"
+           ],
+           "description": [
+               "бути присутнім, поділяти увагу"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "attention",
+           "transcription": [
+               "/əˈtɛn.ʃən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/attention-us.mp3"
+           ],
+           "description": [
+               "увага, уважність"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "attitude",
            "transcription": [
                "/ˈætɪˌtjuːd/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/attitude-us.mp3"
            ],
            "description": [
-               "ставлення, позиція"
+               "ставлення"
            ],
-           "countOfRepeatWord": 3
+           "countOfRepeatWord": 4
+       },
+       {
+           "word": "audience",
+           "transcription": [
+               "/ˈɔːdi.əns/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/audience-uk.mp3"
+           ],
+           "description": [
+               "аудиторія, слухачі"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "authority",
+           "transcription": [
+               "/ɔːˈθɒɹəti/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/authority-us.mp3"
+           ],
+           "description": [
+               "авторитет"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "average",
+           "transcription": [
+               "/ˈævəɹɪd͡ʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/average-1-us.mp3"
+           ],
+           "description": [
+               "середній, нормальний, звичайний"
+           ],
+           "countOfRepeatWord": 1
        },
        {
            "word": "avidity",
@@ -626,6 +1352,17 @@ const exampleList = {
                "жадібність"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "avoid",
+           "transcription": [
+               "/əˈvɔɪd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/avoid-us.mp3"
+           ],
+           "description": [
+               "уникати, оминати"
+           ],
+           "countOfRepeatWord": 2
        },
        {
            "word": "await",
@@ -650,6 +1387,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "award",
+           "transcription": [
+               "/əˈwɔːd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/award-us.mp3"
+           ],
+           "description": [
+               "нагорода"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "aware",
            "transcription": [
                "/əˈweːɹ/",
@@ -659,9 +1407,42 @@ const exampleList = {
                "в курсі, обізнаний"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "awareness",
+           "transcription": [
+               "/əˈwɛənəs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/awareness-us.mp3"
+           ],
+           "description": [
+               "усвідомлення, обізнаність"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "awe",
+           "transcription": [
+               "/ɔ/",
+               null
+           ],
+           "description": [
+               "трепет, благоговіяння, вселяти страх"
+           ],
+           "countOfRepeatWord": 1
        }
    ],
    "b": [
+       {
+           "word": "back and forth",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "тут і там, туди - сюди"
+           ],
+           "countOfRepeatWord": 1
+       },
        {
            "word": "bad(awful)",
            "transcription": [
@@ -670,6 +1451,39 @@ const exampleList = {
            ],
            "description": [
                "жахливо"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "badge",
+           "transcription": [
+               "/bædʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/badge-uk.mp3"
+           ],
+           "description": [
+               "значок, емблема"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "badger",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "борсук"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "baker",
+           "transcription": [
+               "/ˈbeɪ.kə(ɹ)/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/baker-us.mp3"
+           ],
+           "description": [
+               "пекар"
            ],
            "countOfRepeatWord": 1
        },
@@ -685,6 +1499,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "bare",
+           "transcription": [
+               "/bɛə(ɹ)/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/bare-us.mp3"
+           ],
+           "description": [
+               "голий, бідний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "basically",
            "transcription": [
                "/ˈbeɪsɪk(ə)li/",
@@ -696,15 +1521,37 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "basket",
+           "transcription": [
+               "/ˈbaːskət/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/basket-us.mp3"
+           ],
+           "description": [
+               "кошик"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "bay",
            "transcription": [
                "/beɪ/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/bay-us.mp3"
            ],
            "description": [
-               "затока"
+               "бухта, затока, гавкіт, гавкання"
            ],
-           "countOfRepeatWord": 2
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "beast",
+           "transcription": [
+               "/biːst/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/beast-us.mp3"
+           ],
+           "description": [
+               "звір"
+           ],
+           "countOfRepeatWord": 1
        },
        {
            "word": "beautiful(stunning)",
@@ -714,6 +1561,17 @@ const exampleList = {
            ],
            "description": [
                "приголомшливий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "beef",
+           "transcription": [
+               "/biːf/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/beef-uk.mp3"
+           ],
+           "description": [
+               "яловичина, скарга, суперечка"
            ],
            "countOfRepeatWord": 1
        },
@@ -762,6 +1620,61 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "belove",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "нижче"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "bemuse",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "збентежений"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "bench",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "лавка, верстат"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "beneath",
+           "transcription": [
+               "/bɪˈniːθ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/beneath-us.mp3"
+           ],
+           "description": [
+               "нижче, унизу, під"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "benefit",
+           "transcription": [
+               "/ˈbɛn.ɪ.fɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/benefit-us.mp3"
+           ],
+           "description": [
+               "вигідно"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "bent",
            "transcription": [
                "/bɛnt/",
@@ -769,6 +1682,28 @@ const exampleList = {
            ],
            "description": [
                "схиляний, зігнутий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "beside",
+           "transcription": [
+               "/bɪˈsaɪd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/beside-us.mp3"
+           ],
+           "description": [
+               "біля, коло, поруч"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "besides",
+           "transcription": [
+               "/biˈsaɪdz/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/besides-us.mp3"
+           ],
+           "description": [
+               "крім того"
            ],
            "countOfRepeatWord": 1
        },
@@ -790,9 +1725,9 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/beyond-us.mp3"
            ],
            "description": [
-               "за межами, вдалині"
+               "за межами, поза"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "bid",
@@ -850,6 +1785,39 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "bins",
+           "transcription": [
+               "/bɪnz/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/bins-au.mp3"
+           ],
+           "description": [
+               "бункери"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "birth rate",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "народжуваність"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "bitter",
+           "transcription": [
+               "/ˈbɪtə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/bitter-us.mp3"
+           ],
+           "description": [
+               "гіркий, болісний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "blushed",
            "transcription": [
                "/blʌʃt/",
@@ -857,6 +1825,83 @@ const exampleList = {
            ],
            "description": [
                "почервонів, завстиався"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "board of directors",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "рада директорів"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "boast",
+           "transcription": [
+               "/bəʊst/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/boast-us.mp3"
+           ],
+           "description": [
+               "хвалитися, похвала"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "bold",
+           "transcription": [
+               "/bəʊld/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/bold-us.mp3"
+           ],
+           "description": [
+               "жирний, відважний, зухвалий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "bond",
+           "transcription": [
+               "/bɒnd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/bond-us.mp3"
+           ],
+           "description": [
+               "зобов'язання, окови, ланцюги, кріпацтво"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "borgain",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "торгуватися, торгівельна угода"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "borrow",
+           "transcription": [
+               "/ˈbɔɹoʊ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/borrow-us.mp3"
+           ],
+           "description": [
+               "позичати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "bother",
+           "transcription": [
+               "[ˈbɔðə(ɹ)]",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/bother-uk.mp3"
+           ],
+           "description": [
+               "турбувати, набридати"
            ],
            "countOfRepeatWord": 1
        },
@@ -870,6 +1915,50 @@ const exampleList = {
                "межа"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "bow",
+           "transcription": [
+               "/bəʊ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/bow-1-uk.mp3"
+           ],
+           "description": [
+               "зігнутись, уклін"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "box office",
+           "transcription": [
+               "/ˈbɒksˌɒfɪs/",
+               null
+           ],
+           "description": [
+               "каса"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "bra",
+           "transcription": [
+               "/bɹɑː/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/bra-au.mp3"
+           ],
+           "description": [
+               "бюстгальтер"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "branch",
+           "transcription": [
+               "/bɹæntʃ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/branch-us.mp3"
+           ],
+           "description": [
+               "гілка"
+           ],
+           "countOfRepeatWord": 2
        },
        {
            "word": "brave",
@@ -890,6 +1979,17 @@ const exampleList = {
            ],
            "description": [
                "груди"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "bribe",
+           "transcription": [
+               "/bɹaɪb/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/bribe-us.mp3"
+           ],
+           "description": [
+               "хабар, підкуп"
            ],
            "countOfRepeatWord": 1
        },
@@ -916,6 +2016,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "brust",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "вибух, імпульс, спалах"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "bunch",
            "transcription": [
                "/ˈbʌntʃ/",
@@ -938,18 +2049,51 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "burst",
+           "transcription": [
+               "/bɜːst/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/burst-us.mp3"
+           ],
+           "description": [
+               "лопнути, зазнати невдачі"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "burst into tears",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "розплакатись"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "bury",
            "transcription": [
                "/ˈbʌ.ɹi/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/bury-us.mp3"
            ],
            "description": [
-               "поховати"
+               "поховати, закопати"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        }
    ],
    "c": [
+       {
+           "word": "cab",
+           "transcription": [
+               "/kæb/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/cab-us.mp3"
+           ],
+           "description": [
+               "таксі"
+           ],
+           "countOfRepeatWord": 1
+       },
        {
            "word": "cancel",
            "transcription": [
@@ -973,6 +2117,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "capability",
+           "transcription": [
+               "/keɪpəˈbɪləti/",
+               null
+           ],
+           "description": [
+               "можливості"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "capable",
            "transcription": [
                "/ˈkeɪpəbl̩/",
@@ -980,6 +2135,17 @@ const exampleList = {
            ],
            "description": [
                "здатний"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "carry",
+           "transcription": [
+               "/ˈkæ.ɹi/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/carry.mp3"
+           ],
+           "description": [
+               "нести, перевозити"
            ],
            "countOfRepeatWord": 1
        },
@@ -991,6 +2157,17 @@ const exampleList = {
            ],
            "description": [
                "причина"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "cave",
+           "transcription": [
+               "/keɪv/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/cave-1-us.mp3"
+           ],
+           "description": [
+               "печера"
            ],
            "countOfRepeatWord": 1
        },
@@ -1017,15 +2194,26 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "ceil",
+           "transcription": [
+               "/siːl/",
+               null
+           ],
+           "description": [
+               "стеля"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "cell",
            "transcription": [
                "/sɛl/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/cell-us.mp3"
            ],
            "description": [
-               "клітина"
+               "клітина, бути в клітці, в'язниця"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "century",
@@ -1037,6 +2225,17 @@ const exampleList = {
                "століття"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "certain",
+           "transcription": [
+               "/ˈsɝtn̩/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/certain-ca.mp3"
+           ],
+           "description": [
+               "певний, деякий, вірний"
+           ],
+           "countOfRepeatWord": 3
        },
        {
            "word": "certain(positive)",
@@ -1056,7 +2255,62 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/certainly-us.mp3"
            ],
            "description": [
-               "авжеж, звичайно"
+               "звичайно, авжеж"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "chairman",
+           "transcription": [
+               "/ˈtʃɛːmən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/chairman-us.mp3"
+           ],
+           "description": [
+               "голова"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "character",
+           "transcription": [
+               "/ˈkæɹəktə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/character-us.mp3"
+           ],
+           "description": [
+               "характер, ієрогліф, робити напис"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "charge",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "плата(за послуги), занесення на рахунок, заряджати."
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "charge money",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "стягувати гроші"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "charger",
+           "transcription": [
+               "/ˈtʃɑːdʒə/",
+               null
+           ],
+           "description": [
+               "зарядний пристрій"
            ],
            "countOfRepeatWord": 1
        },
@@ -1072,6 +2326,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "check",
+           "transcription": [
+               "/t͡ʃɛk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/check-us.mp3"
+           ],
+           "description": [
+               "перевірити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "cheques",
+           "transcription": [
+               "/tʃɛks/",
+               null
+           ],
+           "description": [
+               "чеки"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "chest",
            "transcription": [
                "/t͡ʃɛst/",
@@ -1083,6 +2359,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "circumstance",
+           "transcription": [
+               "/-æns/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/circumstance-us.mp3"
+           ],
+           "description": [
+               "обставина"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "civic",
            "transcription": [
                "/ˈsɪvɪk/",
@@ -1090,6 +2377,17 @@ const exampleList = {
            ],
            "description": [
                "громадянський"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "civil",
+           "transcription": [
+               "/ˈsɪv.əl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/civil-us.mp3"
+           ],
+           "description": [
+               "цивільний"
            ],
            "countOfRepeatWord": 1
        },
@@ -1149,6 +2447,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "climb",
+           "transcription": [
+               "/klaɪm/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/climb-us.mp3"
+           ],
+           "description": [
+               "піднімати, вилазити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "cloak",
            "transcription": [
                "/ˈkloʊk/",
@@ -1167,6 +2476,17 @@ const exampleList = {
            ],
            "description": [
                "тканина"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "clothes",
+           "transcription": [
+               "/kləʊ(ð)z/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/clothes-1-uk.mp3"
+           ],
+           "description": [
+               "одяг"
            ],
            "countOfRepeatWord": 1
        },
@@ -1204,6 +2524,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "coal",
+           "transcription": [
+               "/kɔʊl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/coal-us.mp3"
+           ],
+           "description": [
+               "вугілля"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "coast",
+           "transcription": [
+               "/kəʊst/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/coast-us.mp3"
+           ],
+           "description": [
+               "берег, узбережжя"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "cold(freezing)",
            "transcription": [
                "",
@@ -1224,6 +2566,39 @@ const exampleList = {
                "збирати, колекціонувати"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "collects",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "збирає"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "combat",
+           "transcription": [
+               "/ˈkɒmˌbæt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/combat-us.mp3"
+           ],
+           "description": [
+               "бойовий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "combine",
+           "transcription": [
+               "/kəmˈbaɪn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/combine-uk.mp3"
+           ],
+           "description": [
+               "комбінувати"
+           ],
+           "countOfRepeatWord": 2
        },
        {
            "word": "commit",
@@ -1259,6 +2634,61 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "common sense",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "здоровий глузд"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "compare",
+           "transcription": [
+               "/kəmˈpɛə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/compare-us.mp3"
+           ],
+           "description": [
+               "порівняти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "competitive",
+           "transcription": [
+               "/kəmˈpɛtɪtɪv/",
+               null
+           ],
+           "description": [
+               "конкуруючий, конкурентноспроможний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "concern",
+           "transcription": [
+               "/kənˈsɜːn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/concern-us.mp3"
+           ],
+           "description": [
+               "заклопотаність"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "conclusion",
+           "transcription": [
+               "/kənˈkluːʒən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/conclusion-us.mp3"
+           ],
+           "description": [
+               "висновок"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "concrete",
            "transcription": [
                "/kɵnˈkɹiːt/",
@@ -1266,6 +2696,17 @@ const exampleList = {
            ],
            "description": [
                "тверднути, конкретний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "conduct",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "керувати, вести, поведінка"
            ],
            "countOfRepeatWord": 1
        },
@@ -1303,6 +2744,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "conform",
+           "transcription": [
+               "/kənˈfɔːm/",
+               null
+           ],
+           "description": [
+               "відповідати, підкорятися"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "conformably",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "відповідно"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "conqueror",
            "transcription": [
                "/ˈkɒŋkəɹə/",
@@ -1310,6 +2773,17 @@ const exampleList = {
            ],
            "description": [
                "завойовник, переможець"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "conscientious",
+           "transcription": [
+               "/ˌkɒnʃiˈɛnʃəs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/conscientious-us.mp3"
+           ],
+           "description": [
+               "сумлінний, добросовісний, чесний"
            ],
            "countOfRepeatWord": 1
        },
@@ -1336,6 +2810,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "consider",
+           "transcription": [
+               "/kənˈsɪdə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/consider-us.mp3"
+           ],
+           "description": [
+               "розглянути"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "considerable",
+           "transcription": [
+               "/kənˈsɪdəɹəbl̩/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/considerable-us.mp3"
+           ],
+           "description": [
+               "значний, великий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "consist",
            "transcription": [
                "/kənˈsɪst/",
@@ -1344,7 +2840,7 @@ const exampleList = {
            "description": [
                "складаються"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "content",
@@ -1369,6 +2865,94 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "contrary",
+           "transcription": [
+               "/ˈkɒntɹəɹi/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/contrary-us.mp3"
+           ],
+           "description": [
+               "всупереч"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "convenient",
+           "transcription": [
+               "/kənˈviːniənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/convenient-us.mp3"
+           ],
+           "description": [
+               "зручний, комфортний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "conventional",
+           "transcription": [
+               "/kənˈvɛnʃənl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/conventional-us.mp3"
+           ],
+           "description": [
+               "звичайний"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "convey",
+           "transcription": [
+               "/kənˈveɪ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/convey-us.mp3"
+           ],
+           "description": [
+               "передати, транспорувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "conviction",
+           "transcription": [
+               "/kənˈvɪkʃən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/conviction-us.mp3"
+           ],
+           "description": [
+               "переконання, упевненість, засудження, осуд"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "convince",
+           "transcription": [
+               "/kənˈvɪns/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/convince-us.mp3"
+           ],
+           "description": [
+               "переконати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "cope",
+           "transcription": [
+               "/kəʊp/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/cope-uk.mp3"
+           ],
+           "description": [
+               "впоратися"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "corner",
+           "transcription": [
+               "/ˈkɔːnə(ɹ)/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/corner-us.mp3"
+           ],
+           "description": [
+               "кут, кутовий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "corresponding",
            "transcription": [
                "/ˌkɒɹəˈspɒndɪŋ/",
@@ -1380,6 +2964,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "council",
+           "transcription": [
+               "/ˈkaʊn.səl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/council-us.mp3"
+           ],
+           "description": [
+               "рада, нарада, консиліум"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "countenance",
            "transcription": [
                "[kʲʰæũ̯.ʔɪ̆.nəns]",
@@ -1387,6 +2982,39 @@ const exampleList = {
            ],
            "description": [
                "обличчя, спокій, самовладання"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "coup",
+           "transcription": [
+               "/kuː/",
+               null
+           ],
+           "description": [
+               "переворот, вдалий хід, вдача в справах"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "courage",
+           "transcription": [
+               "/ˈkʌɹɪdʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/courage-us.mp3"
+           ],
+           "description": [
+               "сміливість, хоробрість"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "court",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "суд, двір, корт"
            ],
            "countOfRepeatWord": 1
        },
@@ -1424,6 +3052,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "crowd",
+           "transcription": [
+               "/kɹaʊd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/crowd-us.mp3"
+           ],
+           "description": [
+               "натовп"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "crutch",
            "transcription": [
                "/kɹʌtʃ/",
@@ -1446,6 +3085,39 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "cupboard",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "шафа, сервант"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "curious",
+           "transcription": [
+               "/ˈkjɔː-/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/curious-us.mp3"
+           ],
+           "description": [
+               "допитливість"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "current",
+           "transcription": [
+               "/ˈkʌɹənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/current-us.mp3"
+           ],
+           "description": [
+               "поточний, кінцевий, течія"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "currently",
            "transcription": [
                "/ˈkʌɹəntli/",
@@ -1455,6 +3127,50 @@ const exampleList = {
                "в даний час, нині"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "curricula",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "навчальний план"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "curtain",
+           "transcription": [
+               "/ˈkɜːtn̩/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/curtain-uk.mp3"
+           ],
+           "description": [
+               "завіса, штора"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "curve",
+           "transcription": [
+               "/kɜːv/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/curve-us.mp3"
+           ],
+           "description": [
+               "крива"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "custom",
+           "transcription": [
+               "/ˈkʌstəm/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/custom-us.mp3"
+           ],
+           "description": [
+               "виготовлений на замовлення, звичай"
+           ],
+           "countOfRepeatWord": 2
        },
        {
            "word": "custom-house",
@@ -1474,9 +3190,9 @@ const exampleList = {
                null
            ],
            "description": [
-               "клієнт, замовник, покупець"
+               "замовник, клієнт"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        }
    ],
    "d": [
@@ -1509,9 +3225,31 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/defeat-us.mp3"
            ],
            "description": [
-               "поразка, програш, розгром"
+               "поразка, розгром, завдати поразки"
            ],
-           "countOfRepeatWord": 2
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "defer",
+           "transcription": [
+               "/dɪˈfɜː(ɹ)/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/defer-uk.mp3"
+           ],
+           "description": [
+               "відкласти, відстрочувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "define",
+           "transcription": [
+               "/dɪˈfaɪn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/define-us.mp3"
+           ],
+           "description": [
+               "визначити, встановлювати"
+           ],
+           "countOfRepeatWord": 1
        },
        {
            "word": "defy",
@@ -1547,6 +3285,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "delectable",
+           "transcription": [
+               "/dɪˈlɛktəbəl/",
+               null
+           ],
+           "description": [
+               "чудовий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "delightful",
            "transcription": [
                "[dəˈlaɪ̯t̚.fəɫ]",
@@ -1558,13 +3307,35 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "delivery",
+           "transcription": [
+               "/dɪˈlɪv(ə)ɹi/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/delivery-au.mp3"
+           ],
+           "description": [
+               "постачання"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "demand",
            "transcription": [
                "/dɪˈmɑːnd/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/demand-us.mp3"
            ],
            "description": [
-               "попит, вимога, домагання"
+               "попит, потреба, вимагати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "demean",
+           "transcription": [
+               "/dɪˈmiːn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/demean-uk.mp3"
+           ],
+           "description": [
+               "принижувати"
            ],
            "countOfRepeatWord": 1
        },
@@ -1575,7 +3346,29 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/deny-us.mp3"
            ],
            "description": [
-               "заперечувати, відмовляти, відкинути"
+               "заперечувати, відмовляти"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "department",
+           "transcription": [
+               "/dɪˈpɑːtm(ə)nt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/department-us.mp3"
+           ],
+           "description": [
+               "відділ"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "deprecated",
+           "transcription": [
+               "/ˈdɛp.ɹə.keɪt.ɪd/",
+               null
+           ],
+           "description": [
+               "застарілий"
            ],
            "countOfRepeatWord": 1
        },
@@ -1624,6 +3417,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "despite",
+           "transcription": [
+               "/dɪˈspaɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/despite-us.mp3"
+           ],
+           "description": [
+               "не зважаючи на"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "detain",
            "transcription": [
                "/dɪˈteɪn/",
@@ -1631,6 +3435,39 @@ const exampleList = {
            ],
            "description": [
                "затримувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "deteriorate",
+           "transcription": [
+               "/dɪˈtɪəɹɪəɹeɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/deteriorate-uk.mp3"
+           ],
+           "description": [
+               "погіршувати, псувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "determination",
+           "transcription": [
+               "/dɪˌtɜːmɪˈneɪʃən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/determination-us.mp3"
+           ],
+           "description": [
+               "рішучість"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "determine",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "визначати, вирішити"
            ],
            "countOfRepeatWord": 1
        },
@@ -1668,6 +3505,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "dig",
+           "transcription": [
+               "/dɪɡ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/dig-1-us.mp3"
+           ],
+           "description": [
+               "рити, копати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "dilate",
            "transcription": [
                "/daɪˈleɪt/",
@@ -1675,6 +3523,28 @@ const exampleList = {
            ],
            "description": [
                "розшируватися"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "diligent",
+           "transcription": [
+               "/ˈdɪlɪdʒənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/diligent-us.mp3"
+           ],
+           "description": [
+               "старанний, дбайливий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "dinner",
+           "transcription": [
+               "/ˈdɪnə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/dinner-uk.mp3"
+           ],
+           "description": [
+               "вечеря, обід"
            ],
            "countOfRepeatWord": 1
        },
@@ -1690,6 +3560,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "directly",
+           "transcription": [
+               "/daɪˈɹɛk(t)li/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/directly-us.mp3"
+           ],
+           "description": [
+               "безпосередньо, прямо"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "director",
+           "transcription": [
+               "/daɪˈɹɛktə(ɹ)/",
+               null
+           ],
+           "description": [
+               "директор, режисер"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "dirty(filthy)",
            "transcription": [
                "",
@@ -1697,6 +3589,39 @@ const exampleList = {
            ],
            "description": [
                "брудний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "disadvantage",
+           "transcription": [
+               "/ˌdɪsədˈvɑːntɪdʒ/",
+               null
+           ],
+           "description": [
+               "недолік"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "disconnection",
+           "transcription": [
+               "/dɪskəˈnɛkʃən/",
+               null
+           ],
+           "description": [
+               "відключення"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "discord",
+           "transcription": [
+               "/ˈdɪskɔːd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/discord-us.mp3"
+           ],
+           "description": [
+               "відкинути, скидати карту"
            ],
            "countOfRepeatWord": 1
        },
@@ -1712,6 +3637,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "distance",
+           "transcription": [
+               "/ˈdɪs.təns/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/distance-us.mp3"
+           ],
+           "description": [
+               "дистанція"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "distant",
+           "transcription": [
+               "/ˈdɪstənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/distant-us.mp3"
+           ],
+           "description": [
+               "далекий, віддфлений"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "distinct",
            "transcription": [
                "/dɪsˈtɪŋkt/",
@@ -1723,6 +3670,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "distinction",
+           "transcription": [
+               "/dɪˈstɪŋkʃən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/distinction-us.mp3"
+           ],
+           "description": [
+               "відмінність, особливість"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "diver",
            "transcription": [
                "/ˈdaɪ̯vəɹ/",
@@ -1730,6 +3688,17 @@ const exampleList = {
            ],
            "description": [
                "водолаз"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "divercity",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "різноманітність"
            ],
            "countOfRepeatWord": 1
        },
@@ -1751,9 +3720,9 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/divide-us.mp3"
            ],
            "description": [
-               "розділяти"
+               "ділити, поділ"
            ],
-           "countOfRepeatWord": 2
+           "countOfRepeatWord": 3
        },
        {
            "word": "divided",
@@ -1763,6 +3732,28 @@ const exampleList = {
            ],
            "description": [
                "розділений"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "division",
+           "transcription": [
+               "/dɪˈvɪʒən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/division-us.mp3"
+           ],
+           "description": [
+               "поділ, розподіл, ділення"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "domestic",
+           "transcription": [
+               "/dəˈmɛstɪk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/domestic-us.mp3"
+           ],
+           "description": [
+               "домашній, місцевий, внутрішній"
            ],
            "countOfRepeatWord": 1
        },
@@ -1800,6 +3791,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "draw",
+           "transcription": [
+               "/dɹɔː/",
+               null
+           ],
+           "description": [
+               "залучати, втягувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "drill",
+           "transcription": [
+               "/dɹɪl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/drill-us.mp3"
+           ],
+           "description": [
+               "тренуватись, свердлити, дриль"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "drop",
            "transcription": [
                "",
@@ -1811,13 +3824,57 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "dropped out",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "кинув, вибув, випав"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "dry",
            "transcription": [
                "/dɹaɪ/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/dry-au.mp3"
            ],
            "description": [
-               "сухий"
+               "сухий, сухість"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "due",
+           "transcription": [
+               "/dʒʉː/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/due-us.mp3"
+           ],
+           "description": [
+               "через, потрібно, належне"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "due date",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "термін виконання"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "dull",
+           "transcription": [
+               "/dəl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/dull-us.mp3"
+           ],
+           "description": [
+               "тупий, безтолковий"
            ],
            "countOfRepeatWord": 1
        },
@@ -1842,9 +3899,53 @@ const exampleList = {
                "протягом, під-час"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "duty",
+           "transcription": [
+               "/ˈdjuːti/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/duty-uk.mp3"
+           ],
+           "description": [
+               "зобов'язання, борг, військова повинність"
+           ],
+           "countOfRepeatWord": 1
        }
    ],
    "e": [
+       {
+           "word": "eager",
+           "transcription": [
+               "/ˈiːɡə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/eager-us.mp3"
+           ],
+           "description": [
+               "нетерплячий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "earn",
+           "transcription": [
+               "/ɜːn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/earn-1-us.mp3"
+           ],
+           "description": [
+               "заробити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "earthquake",
+           "transcription": [
+               "/ˈɜːθkweɪk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/earthquake-us.mp3"
+           ],
+           "description": [
+               "землетрус"
+           ],
+           "countOfRepeatWord": 1
+       },
        {
            "word": "ease",
            "transcription": [
@@ -1863,9 +3964,9 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/edge-au.mp3"
            ],
            "description": [
-               "край(обрив), бордюр"
+               "край"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "efficient",
@@ -1879,15 +3980,37 @@ const exampleList = {
            "countOfRepeatWord": 2
        },
        {
+           "word": "effort",
+           "transcription": [
+               "/ˈɛfət/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/effort-us.mp3"
+           ],
+           "description": [
+               "зусилля, намагання"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "either",
            "transcription": [
                "/ˈaɪð.ə(ɹ)/",
                null
            ],
            "description": [
-               "або, обидва, будь-який"
+               "або, будь який, обидва,"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "election",
+           "transcription": [
+               "/ɪˈlɛkʃ(ə)n/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/election-us.mp3"
+           ],
+           "description": [
+               "вибори"
+           ],
+           "countOfRepeatWord": 2
        },
        {
            "word": "eliminate",
@@ -1908,6 +4031,72 @@ const exampleList = {
            ],
            "description": [
                "красномовний, промовистий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "embarrass",
+           "transcription": [
+               "/ɪmˈbæ.ɹəs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/embarrass-us.mp3"
+           ],
+           "description": [
+               "бентежити, турбувати, ускладнювати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "embarrasse",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "збентежити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "embrace",
+           "transcription": [
+               "/ɛmˈbɹeɪs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/embrace-uk.mp3"
+           ],
+           "description": [
+               "обійняти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "emphasis",
+           "transcription": [
+               "/ˈɛmfəsɪs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/emphasis-us.mp3"
+           ],
+           "description": [
+               "наголос, акцент"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "emphasize",
+           "transcription": [
+               "/ˈɛm.fə.saɪz/",
+               null
+           ],
+           "description": [
+               "підкреслити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "employ",
+           "transcription": [
+               "/ɛmˈplɔɪ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/employ-us.mp3"
+           ],
+           "description": [
+               "найняти, використовувати"
            ],
            "countOfRepeatWord": 1
        },
@@ -1945,6 +4134,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "encourage",
+           "transcription": [
+               "/ɪnˈkʌɹɪdʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/encourage-us.mp3"
+           ],
+           "description": [
+               "заохочувати, підбадьорювати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "endure",
            "transcription": [
                "/ɪnˈdjɔː(ɹ)/",
@@ -1956,13 +4156,35 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "engage",
+           "transcription": [
+               "/ɛnˈɡeɪdʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/engage-us.mp3"
+           ],
+           "description": [
+               "залучати, займатися, вербувати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "enhance",
            "transcription": [
                "/ɪnˈhɑːns/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/enhance-us.mp3"
            ],
            "description": [
-               "покращити"
+               "покращити, збільшити"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "ensure",
+           "transcription": [
+               "/ɪnˈʃɔː/",
+               null
+           ],
+           "description": [
+               "забезпечити, страхувати"
            ],
            "countOfRepeatWord": 1
        },
@@ -1978,6 +4200,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "entertainment",
+           "transcription": [
+               "/ˈɛn.tɚˈteɪn.mənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/entertainment-us.mp3"
+           ],
+           "description": [
+               "розваги, видовище"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "entire",
+           "transcription": [
+               "/ənˈtaɪə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/entire-us.mp3"
+           ],
+           "description": [
+               "повний, суцільний, цілий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "entirely",
            "transcription": [
                "/ɪnˈtaɪəli/",
@@ -1987,6 +4231,17 @@ const exampleList = {
                "повністю, навік, тільки"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "entrance",
+           "transcription": [
+               "/ˈɛn.tɹəns/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/entrance-1-uk.mp3"
+           ],
+           "description": [
+               "вхід, хід, під'їзд, доступ"
+           ],
+           "countOfRepeatWord": 2
        },
        {
            "word": "entrench",
@@ -2024,11 +4279,44 @@ const exampleList = {
        {
            "word": "envelope",
            "transcription": [
-               "",
+               "/ˈɒn.və.ləʊp/",
                ""
            ],
            "description": [
-               "конверт, обкладинка"
+               "оболонка, обгортка, конверт"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "epithet",
+           "transcription": [
+               "/ˈɛ.pɪ.θɛt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/epithet-us.mp3"
+           ],
+           "description": [
+               "епітет"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "equipment",
+           "transcription": [
+               "/ɪˈkwɪpmənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/equipment-us.mp3"
+           ],
+           "description": [
+               "обладнання, техніка"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "era",
+           "transcription": [
+               "/ˈɪə̯ɹ.ə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/era-uk.mp3"
+           ],
+           "description": [
+               "ера"
            ],
            "countOfRepeatWord": 1
        },
@@ -2044,6 +4332,72 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "essential",
+           "transcription": [
+               "/ɪˈsɛn.ʃəl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/essential-us.mp3"
+           ],
+           "description": [
+               "суть, суттєвий"
+           ],
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "essential service",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "необхідна послуга"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "establish",
+           "transcription": [
+               "/ɪˈstæb.lɪʃ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/establish-us.mp3"
+           ],
+           "description": [
+               "встановлювати, засновувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "establishment",
+           "transcription": [
+               "/ɪˈstæblɪʃmənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/establishment-us.mp3"
+           ],
+           "description": [
+               "заклад, заснування"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "estate",
+           "transcription": [
+               "/ɪsˈteɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/estate-us.mp3"
+           ],
+           "description": [
+               "маєток, становище, статус"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "estimate",
+           "transcription": [
+               "/ˈɛstɨmɨt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/estimate-us.mp3"
+           ],
+           "description": [
+               "кошторис, оцінка, оцінювати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "evade",
            "transcription": [
                "/ɪˈveɪd/",
@@ -2055,6 +4409,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "eventually",
+           "transcription": [
+               "/ɪ.ˈvɛn.tjʊ.li/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/eventually-us.mp3"
+           ],
+           "description": [
+               "зрештою"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "evenually",
            "transcription": [
                "",
@@ -2062,6 +4427,17 @@ const exampleList = {
            ],
            "description": [
                "зрештою(after all)"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "evidence",
+           "transcription": [
+               "[ˈɛvəɾəns]",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/evidence-us.mp3"
+           ],
+           "description": [
+               "доказ"
            ],
            "countOfRepeatWord": 1
        },
@@ -2094,7 +4470,18 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/examine-us.mp3"
            ],
            "description": [
-               "оглядати, перевіряти, досліджувати"
+               "оглядати, перевірити, розглядати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "except",
+           "transcription": [
+               "/ɪkˈsɛpt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/except-uk.mp3"
+           ],
+           "description": [
+               "окрім, за винятком, виключити"
            ],
            "countOfRepeatWord": 1
        },
@@ -2117,6 +4504,17 @@ const exampleList = {
            ],
            "description": [
                "збуджувати, хвилювати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "excited",
+           "transcription": [
+               "/ɪkˈsaɪtɪd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/excited-us.mp3"
+           ],
+           "description": [
+               "схвильований"
            ],
            "countOfRepeatWord": 1
        },
@@ -2165,6 +4563,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "exeption",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "виняток"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "exhaust",
            "transcription": [
                "/ɪɡˈzɔːst/",
@@ -2209,6 +4618,39 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "express",
+           "transcription": [
+               "/ɛk.ˈspɹɛs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/express-us.mp3"
+           ],
+           "description": [
+               "виражати, експрес"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "extend",
+           "transcription": [
+               "/ɛkˈstɛnd/",
+               null
+           ],
+           "description": [
+               "поширювати, розширювати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "extraordinary",
+           "transcription": [
+               "/ɪksˈtɹɔː(ɹ)dɪnəɹi/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/extraordinary-us.mp3"
+           ],
+           "description": [
+               "надзвичайний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "exuberant",
            "transcription": [
                "/ɪɡˈzuːbəɹənt/",
@@ -2216,6 +4658,17 @@ const exampleList = {
            ],
            "description": [
                "життєрадісний, розкішний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "exult",
+           "transcription": [
+               "/ɪɡˈzʌlt/",
+               null
+           ],
+           "description": [
+               "радіти, торжествувати"
            ],
            "countOfRepeatWord": 1
        },
@@ -2233,6 +4686,39 @@ const exampleList = {
    ],
    "f": [
        {
+           "word": "fair",
+           "transcription": [
+               "/feː(ə)/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/fair-us.mp3"
+           ],
+           "description": [
+               "чесно, ярмарок"
+           ],
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "fairly",
+           "transcription": [
+               "/ˈfɛə(ɹ).li/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/fairly-us.mp3"
+           ],
+           "description": [
+               "справедливо"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "faith",
+           "transcription": [
+               "/feɪθ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/faith-us.mp3"
+           ],
+           "description": [
+               "віра, вірність, кредо"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "faithful",
            "transcription": [
                "/ˈfeɪθ.fəl/",
@@ -2244,6 +4730,39 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "familiar",
+           "transcription": [
+               "/fəˈmɪl.i.ə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/familiar-us.mp3"
+           ],
+           "description": [
+               "знайомий"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "fan",
+           "transcription": [
+               "/fæn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/fan-uk.mp3"
+           ],
+           "description": [
+               "вентилятор, віяло, обвівати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "fare",
+           "transcription": [
+               "/fɛə(ɹ)/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/fare-us.mp3"
+           ],
+           "description": [
+               "вартість проїзду"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "farther",
            "transcription": [
                "/ˈfɑːðə/",
@@ -2251,6 +4770,17 @@ const exampleList = {
            ],
            "description": [
                "далі, дальший, передовий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "fatigue",
+           "transcription": [
+               "/fəˈtiːɡ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/fatigue-us.mp3"
+           ],
+           "description": [
+               "втома, стомлення, зморювати"
            ],
            "countOfRepeatWord": 1
        },
@@ -2266,15 +4796,48 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "feather",
+           "transcription": [
+               "/ˈfɛð.ə(ɹ)/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/feather-us.mp3"
+           ],
+           "description": [
+               "перо, пір'їна"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "fed",
+           "transcription": [
+               "/fɛd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/fed-us.mp3"
+           ],
+           "description": [
+               "годували"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "fed up",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "набридло"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "feed",
            "transcription": [
                "/ˈfiːd/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/feed-us.mp3"
            ],
            "description": [
-               "годувати, завантажити"
+               "їжак, корм, живитись"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "fellow",
@@ -2283,7 +4846,84 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/fellow-us.mp3"
            ],
            "description": [
-               "товариш, хлопець"
+               "товариш, хлопець, колега"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "fence",
+           "transcription": [
+               "/fɛns/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/fence-us.mp3"
+           ],
+           "description": [
+               "паркан, загорожа"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "field",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "поле"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "fierce",
+           "transcription": [
+               "/fɪəs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/fierce-us.mp3"
+           ],
+           "description": [
+               "лютий, невтримний, запеклий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "figure",
+           "transcription": [
+               "/ˈfɪɡjɚ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/figure-us.mp3"
+           ],
+           "description": [
+               "цифри"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "figure it out",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "вияснив"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "figure out",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "здогадатися"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "find a use",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "знайти застосування"
            ],
            "countOfRepeatWord": 1
        },
@@ -2294,7 +4934,62 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/fit-us.mp3"
            ],
            "description": [
-               "підходить"
+               "підходить, пасує"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "flame",
+           "transcription": [
+               "/fleɪm/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/flame-us.mp3"
+           ],
+           "description": [
+               "полум'я"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "flash",
+           "transcription": [
+               "/flæʃ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/flash-au.mp3"
+           ],
+           "description": [
+               "спалах, мить"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "flask",
+           "transcription": [
+               "/flæsk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/flask-us.mp3"
+           ],
+           "description": [
+               "колба"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "flat",
+           "transcription": [
+               "/flæt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/flat-au.mp3"
+           ],
+           "description": [
+               "плоский, квартира"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "flat rate charge",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "єдина ставка"
            ],
            "countOfRepeatWord": 1
        },
@@ -2306,6 +5001,50 @@ const exampleList = {
            ],
            "description": [
                "комплімент, лестощі"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "flavourings",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "приправа, ароматизатор"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "float",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "плавати, буй"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "flood",
+           "transcription": [
+               "/flʌd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/flood-us.mp3"
+           ],
+           "description": [
+               "повінь, затопити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "flow",
+           "transcription": [
+               "/fləʊ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/flow-us.mp3"
+           ],
+           "description": [
+               "течія, потік"
            ],
            "countOfRepeatWord": 1
        },
@@ -2339,6 +5078,17 @@ const exampleList = {
            ],
            "description": [
                "слідує"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "force",
+           "transcription": [
+               "/fɔːs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/force-us.mp3"
+           ],
+           "description": [
+               "сила, примусити"
            ],
            "countOfRepeatWord": 1
        },
@@ -2393,7 +5143,40 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/fork-uk.mp3"
            ],
            "description": [
-               "вилка"
+               "розгалуження, вилка"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "former",
+           "transcription": [
+               "/ˈfɔːmə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/former-us.mp3"
+           ],
+           "description": [
+               "колишній"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "formerly",
+           "transcription": [
+               "/ˈfɔːməli/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/formerly-us.mp3"
+           ],
+           "description": [
+               "раніше, здавна, колись"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "forth",
+           "transcription": [
+               "/fɔːθ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/forth-us.mp3"
+           ],
+           "description": [
+               "вперед, далі"
            ],
            "countOfRepeatWord": 1
        },
@@ -2411,11 +5194,22 @@ const exampleList = {
        {
            "word": "frame",
            "transcription": [
+               "/fɹeɪm/",
+               ""
+           ],
+           "description": [
+               "рамка, кадр"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "francly",
+           "transcription": [
                "",
                ""
            ],
            "description": [
-               "рамка"
+               "відверто"
            ],
            "countOfRepeatWord": 1
        },
@@ -2453,6 +5247,39 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "freele",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "вільно"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "freight trains",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "вантажні поїздки"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "frequent",
+           "transcription": [
+               "/ˈfɹiː.kwənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/frequent-1-us.mp3"
+           ],
+           "description": [
+               "частий"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "frequently",
            "transcription": [
                "/ˈfɹiː.kwənt.li/",
@@ -2475,6 +5302,50 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "frustration",
+           "transcription": [
+               "/fɹʌsˈtɹeɪʃən/",
+               null
+           ],
+           "description": [
+               "розчарування"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "fulfill",
+           "transcription": [
+               "/fəˈfɪl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/fulfill-us.mp3"
+           ],
+           "description": [
+               "виконати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "fulfilling day",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "насичений день"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "fulfilling job",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "повноційна робота"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "funny(hilarious)",
            "transcription": [
                "",
@@ -2486,18 +5357,73 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "fur",
+           "transcription": [
+               "/fɜː(ɹ)/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/fur-1-us.mp3"
+           ],
+           "description": [
+               "хутро, шерсть"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "furniture",
+           "transcription": [
+               "/ˈfɜːnɪtʃə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/furniture-us.mp3"
+           ],
+           "description": [
+               "меблі"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "further",
            "transcription": [
                "/fɜː(ɹ)ðə(ɹ)/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/further-us.mp3"
            ],
            "description": [
-               "далі, потім, сприяти"
+               "далі, далеко"
            ],
-           "countOfRepeatWord": 2
+           "countOfRepeatWord": 3
        }
    ],
    "g": [
+       {
+           "word": "gain",
+           "transcription": [
+               "/ɡeɪn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/gain-us.mp3"
+           ],
+           "description": [
+               "посилення, дохід, прибуток"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "gamble",
+           "transcription": [
+               "/ˈɡæm.bəl/",
+               null
+           ],
+           "description": [
+               "авантюра, азартна гра"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "gather",
+           "transcription": [
+               "/ˈɡæðə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/gather-us.mp3"
+           ],
+           "description": [
+               "збиратися, збір"
+           ],
+           "countOfRepeatWord": 1
+       },
        {
            "word": "gear",
            "transcription": [
@@ -2510,6 +5436,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "general",
+           "transcription": [
+               "/ˈd͡ʒɛnɹəl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/general-us.mp3"
+           ],
+           "description": [
+               "загальний, генерал"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "gesture",
            "transcription": [
                "/ˈdʒɛs.tʃɚ/",
@@ -2517,6 +5454,17 @@ const exampleList = {
            ],
            "description": [
                "жест, вчинок"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "gone for good",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "зник(пішов) назавжди"
            ],
            "countOfRepeatWord": 1
        },
@@ -2539,6 +5487,39 @@ const exampleList = {
            ],
            "description": [
                "хапати, брати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "gradually",
+           "transcription": [
+               "/ˈɡɹædʒuəli/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/gradually-us.mp3"
+           ],
+           "description": [
+               "поступово"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "grasp",
+           "transcription": [
+               "/ɡɹɑːsp/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/grasp-us.mp3"
+           ],
+           "description": [
+               "захоплення, хватка, зрозуміти"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "grass",
+           "transcription": [
+               "[ɡɹ̠äːs]",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/grass-uk.mp3"
+           ],
+           "description": [
+               "трава"
            ],
            "countOfRepeatWord": 1
        },
@@ -2587,6 +5568,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "guideline",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "керівництво, директива"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "gusher",
            "transcription": [
                "",
@@ -2611,6 +5603,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "hail",
+           "transcription": [
+               "/heɪl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/hail-us.mp3"
+           ],
+           "description": [
+               "град\\оклик, гукнути"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "half-assed",
+           "transcription": [
+               "/ˈhæfæst/",
+               null
+           ],
+           "description": [
+               "наполовину"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "hall",
            "transcription": [
                "/hɔːl/",
@@ -2619,7 +5633,7 @@ const exampleList = {
            "description": [
                "зала"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "handsome",
@@ -2639,7 +5653,18 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/hang-us.mp3"
            ],
            "description": [
-               "висіти, повішати"
+               "вішати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "hang on",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "триматися"
            ],
            "countOfRepeatWord": 1
        },
@@ -2651,6 +5676,17 @@ const exampleList = {
            ],
            "description": [
                "в захваті"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "harm",
+           "transcription": [
+               "/hɑːm/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/harm-us.mp3"
+           ],
+           "description": [
+               "шкода, збиток"
            ],
            "countOfRepeatWord": 1
        },
@@ -2677,6 +5713,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "haushly",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "жорстко"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "headstrong",
            "transcription": [
                "",
@@ -2688,6 +5735,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "heal",
+           "transcription": [
+               "/hiːl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/heal-us.mp3"
+           ],
+           "description": [
+               "зцілити, вилікувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "heat",
+           "transcription": [
+               "/hit/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/heat-us.mp3"
+           ],
+           "description": [
+               "тепло"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "heaven",
            "transcription": [
                "/hɛvn/",
@@ -2695,6 +5764,17 @@ const exampleList = {
            ],
            "description": [
                "рай, бог, провидіння"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "helpmate",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "помічник"
            ],
            "countOfRepeatWord": 1
        },
@@ -2727,9 +5807,9 @@ const exampleList = {
                ""
            ],
            "description": [
-               "заважати, перешкоджати"
+               "утримати, заважати, перешкоджати"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "hire",
@@ -2739,6 +5819,17 @@ const exampleList = {
            ],
            "description": [
                "найняти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "hitchhike",
+           "transcription": [
+               "/ˈhɪtʃhaɪk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/hitchhike-us.mp3"
+           ],
+           "description": [
+               "автостоп"
            ],
            "countOfRepeatWord": 1
        },
@@ -2765,6 +5856,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "hole",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "отвір, дірка"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "honor",
            "transcription": [
                "/ˈɒn.ə/",
@@ -2772,6 +5874,17 @@ const exampleList = {
            ],
            "description": [
                "честь"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "hood",
+           "transcription": [
+               "[hɪ̈d]",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/hood-us.mp3"
+           ],
+           "description": [
+               "капот"
            ],
            "countOfRepeatWord": 1
        },
@@ -2794,6 +5907,17 @@ const exampleList = {
            ],
            "description": [
                "гостинність"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "hot spot",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "гаряча точка"
            ],
            "countOfRepeatWord": 1
        },
@@ -2840,6 +5964,17 @@ const exampleList = {
                "дуже голодний"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "hut",
+           "transcription": [
+               "/hʌt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/hut-us.mp3"
+           ],
+           "description": [
+               "хатина"
+           ],
+           "countOfRepeatWord": 1
        }
    ],
    "i": [
@@ -2864,6 +5999,28 @@ const exampleList = {
                "погано приховується"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "immediately",
+           "transcription": [
+               "/əˈmiːdi.ətli/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/immediately-us.mp3"
+           ],
+           "description": [
+               "негайно"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "impact",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "вплив, зіткнення, удар"
+           ],
+           "countOfRepeatWord": 2
        },
        {
            "word": "impatiently",
@@ -2910,6 +6067,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "implore",
+           "transcription": [
+               "/ɪmˈplɔː/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/implore-uk.mp3"
+           ],
+           "description": [
+               "просити, благати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "impurity",
            "transcription": [
                "/ɪmˈpjuɹɪti/",
@@ -2921,6 +6089,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "inattention",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "неуважність"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "inch",
            "transcription": [
                "/ɪntʃ/",
@@ -2928,6 +6107,17 @@ const exampleList = {
            ],
            "description": [
                "дюйм(2,54см)"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "incomplete",
+           "transcription": [
+               "/ɪn.kəm.ˈpliːt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/incomplete-us.mp3"
+           ],
+           "description": [
+               "неповний, недосконалий"
            ],
            "countOfRepeatWord": 1
        },
@@ -2973,7 +6163,7 @@ const exampleList = {
            "description": [
                "успадковувати"
            ],
-           "countOfRepeatWord": 2
+           "countOfRepeatWord": 3
        },
        {
            "word": "initial",
@@ -2983,6 +6173,17 @@ const exampleList = {
            ],
            "description": [
                "початковий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "injuries",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "травми"
            ],
            "countOfRepeatWord": 1
        },
@@ -3053,6 +6254,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "inspite",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "незважаючи"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "instant",
+           "transcription": [
+               "/ˈɪnstənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/instant-us.mp3"
+           ],
+           "description": [
+               "моментально, миттєво"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "instantly",
            "transcription": [
                "/ˈɪnstəntli/",
@@ -3060,6 +6283,39 @@ const exampleList = {
            ],
            "description": [
                "негайно, миттєво"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "insult",
+           "transcription": [
+               "/ɪnˈsʌlt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/insult-us.mp3"
+           ],
+           "description": [
+               "образа"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "insurance",
+           "transcription": [
+               "/ɪn.ˈʃɔː.ɹəns/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/insurance-us.mp3"
+           ],
+           "description": [
+               "страхування, страховка"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "insure",
+           "transcription": [
+               "/ɪnˈʃɔː/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/insure-us.mp3"
+           ],
+           "description": [
+               "застрахувати"
            ],
            "countOfRepeatWord": 1
        },
@@ -3075,6 +6331,39 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "intend",
+           "transcription": [
+               "/ɪnˈtɛnd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/intend-us.mp3"
+           ],
+           "description": [
+               "мати намір, призначати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "intended",
+           "transcription": [
+               "/ɪnˈtɛndɪd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/intended-us.mp3"
+           ],
+           "description": [
+               "призначений, передбачуваний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "intention",
+           "transcription": [
+               "/ɪnˈtɛnʃən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/intention-us.mp3"
+           ],
+           "description": [
+               "намір"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "internal",
            "transcription": [
                "/ɪnˈtɝnəl/",
@@ -3083,7 +6372,7 @@ const exampleList = {
            "description": [
                "внутрішній"
            ],
-           "countOfRepeatWord": 3
+           "countOfRepeatWord": 4
        },
        {
            "word": "invoke",
@@ -3093,6 +6382,39 @@ const exampleList = {
            ],
            "description": [
                "викликати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "irritate",
+           "transcription": [
+               "/ˈɪɹɪteɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/irritate-us.mp3"
+           ],
+           "description": [
+               "дратувати, дражнити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "is a must",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "є обов'язковим"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "island",
+           "transcription": [
+               "/ˈaɪ̯lənd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/island-uk.mp3"
+           ],
+           "description": [
+               "острів"
            ],
            "countOfRepeatWord": 1
        },
@@ -3152,20 +6474,53 @@ const exampleList = {
                "затор, варення"
            ],
            "countOfRepeatWord": 1
-       }
-   ],
-   "k": [],
-   "l": [
+       },
        {
-           "word": "lack",
+           "word": "judjement",
            "transcription": [
                "",
                ""
            ],
            "description": [
-               "відсутність, нестача, дефіцит"
+               "судження, висновок, вирок"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "justice",
+           "transcription": [
+               "/ˈdʒʌs.tɪs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/justice-us.mp3"
+           ],
+           "description": [
+               "правосуддя"
+           ],
+           "countOfRepeatWord": 1
+       }
+   ],
+   "k": [],
+   "l": [
+       {
+           "word": "labor",
+           "transcription": [
+               "/ˈleɪ.bɚ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/labor-us.mp3"
+           ],
+           "description": [
+               "праця"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "lack",
+           "transcription": [
+               "/lak/",
+               ""
+           ],
+           "description": [
+               "відсутність, дефіцит, нестача"
+           ],
+           "countOfRepeatWord": 4
        },
        {
            "word": "land",
@@ -3186,6 +6541,28 @@ const exampleList = {
            ],
            "description": [
                "провулок, доріжка"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "later",
+           "transcription": [
+               "/ˈleɪtə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/later-us.mp3"
+           ],
+           "description": [
+               "пізніше"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "lay",
+           "transcription": [
+               "/leɪ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/lay-us.mp3"
+           ],
+           "description": [
+               "лежати, класти, положення"
            ],
            "countOfRepeatWord": 1
        },
@@ -3212,6 +6589,39 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "lean",
+           "transcription": [
+               "/liːn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/lean-us.mp3"
+           ],
+           "description": [
+               "збіднений, пісний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "least",
+           "transcription": [
+               "/list/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/least-1-us.mp3"
+           ],
+           "description": [
+               "найменш, мінімум"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "leather",
+           "transcription": [
+               "/ˈlɛðə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/leather-us.mp3"
+           ],
+           "description": [
+               "шкіра, шкіряний виріб"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "led",
            "transcription": [
                "/ˈlɛd/",
@@ -3234,6 +6644,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "legal",
+           "transcription": [
+               "/ˈliː.ɡəl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/legal-us.mp3"
+           ],
+           "description": [
+               "юридичний, легальний, законний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "legislate",
+           "transcription": [
+               "/ˈlɛdʒɪsˌleɪt/",
+               null
+           ],
+           "description": [
+               "видавати закони, законодавствувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "lend",
            "transcription": [
                "/lɛnd/",
@@ -3241,6 +6673,17 @@ const exampleList = {
            ],
            "description": [
                "позичати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "lend a hand",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "протягнути руку"
            ],
            "countOfRepeatWord": 1
        },
@@ -3278,6 +6721,39 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "less",
+           "transcription": [
+               "/lɛs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/less-uk.mp3"
+           ],
+           "description": [
+               "менше, другорядний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "letter",
+           "transcription": [
+               "/-ɾə(ɹ)/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/letter-uk.mp3"
+           ],
+           "description": [
+               "лист"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "liaise",
+           "transcription": [
+               "/liːˈeɪz/",
+               null
+           ],
+           "description": [
+               "зв'язок, встановлювати звязок"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "line",
            "transcription": [
                "/laɪn/",
@@ -3311,6 +6787,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "lively",
+           "transcription": [
+               "/ˈlaɪvli/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/lively-us.mp3"
+           ],
+           "description": [
+               "жвавий, бадьорий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "load",
            "transcription": [
                "/ləʊd/",
@@ -3333,6 +6820,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "loan",
+           "transcription": [
+               "/ləʊn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/loan-us.mp3"
+           ],
+           "description": [
+               "кредит"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "loathing",
            "transcription": [
                "/ˈləʊðɪŋ/",
@@ -3344,15 +6842,48 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "local",
+           "transcription": [
+               "/ˈləʊkl̩/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/local-us.mp3"
+           ],
+           "description": [
+               "місцевий, локальний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "long-tem",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "тривалий, двгостроковий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "lot",
+           "transcription": [
+               "/lɒt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/lot-uk.mp3"
+           ],
+           "description": [
+               "багато"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "low",
            "transcription": [
                "/ləʊ/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/low-1-us.mp3"
            ],
            "description": [
-               "низький"
+               "низько"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "lower",
@@ -3390,6 +6921,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "maintain",
+           "transcription": [
+               "/meɪnˈteɪn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/maintain-us.mp3"
+           ],
+           "description": [
+               "підтримувати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "major",
            "transcription": [
                "",
@@ -3397,6 +6939,17 @@ const exampleList = {
            ],
            "description": [
                "спеціалізація \\ майор"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "majority",
+           "transcription": [
+               "/məˈd͡ʒɒɹɪti/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/majority-us.mp3"
+           ],
+           "description": [
+               "більшість"
            ],
            "countOfRepeatWord": 1
        },
@@ -3495,7 +7048,18 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/may-us.mp3"
            ],
            "description": [
-               "могти"
+               "могти, травень"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "mean",
+           "transcription": [
+               "/miːn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/mean-us.mp3"
+           ],
+           "description": [
+               "означає"
            ],
            "countOfRepeatWord": 1
        },
@@ -3507,6 +7071,28 @@ const exampleList = {
            ],
            "description": [
                "загрожувати, погрожувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "means",
+           "transcription": [
+               "/miːnz/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/means-us.mp3"
+           ],
+           "description": [
+               "кошти, засоби"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "meanwhile",
+           "transcription": [
+               "/ˈmiːnhwaɪl/",
+               null
+           ],
+           "description": [
+               "тим часом"
            ],
            "countOfRepeatWord": 1
        },
@@ -3533,15 +7119,37 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "mend",
+           "transcription": [
+               "/mɛnd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/mend-uk.mp3"
+           ],
+           "description": [
+               "виправити, лагодити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "mending(repair)",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "ремонт"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "mention",
            "transcription": [
                "/ˈmɛnʃən/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/mention-us.mp3"
            ],
            "description": [
-               "згадка"
+               "згадувати"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "mentione",
@@ -3555,6 +7163,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "mercenaries",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "найманці"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "merciful",
            "transcription": [
                "/ˈmɜːsɪfl̩/",
@@ -3562,6 +7181,28 @@ const exampleList = {
            ],
            "description": [
                "милосердний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "mere",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "просто, єдиний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "meticulously",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "прискіпливо, ретельно"
            ],
            "countOfRepeatWord": 1
        },
@@ -3610,6 +7251,72 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "mock",
+           "transcription": [
+               "/mɒk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/mock-us.mp3"
+           ],
+           "description": [
+               "знущатися, глузувати, посміховище"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "mock interview",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "імітація інтерв'ю"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "mode",
+           "transcription": [
+               "/məʊd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/mode-us.mp3"
+           ],
+           "description": [
+               "мода, режим, стан"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "more likely",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "більш схоже"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "mortal",
+           "transcription": [
+               "/ˈmɔːtəl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/mortal-us.mp3"
+           ],
+           "description": [
+               "смертний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "mortgage",
+           "transcription": [
+               "/ˈmɔː.ɡɪdʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/mortgage-us.mp3"
+           ],
+           "description": [
+               "іпотека"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "motorway",
            "transcription": [
                "/ˈməʊtəweɪ/",
@@ -3645,13 +7352,101 @@ const exampleList = {
    ],
    "n": [
        {
+           "word": "namely",
+           "transcription": [
+               "/ˈneɪmli/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/namely-us.mp3"
+           ],
+           "description": [
+               "а саме"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "narrow",
            "transcription": [
                "/ˈnæɹəʊ/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/narrow-us.mp3"
            ],
            "description": [
-               "вузькі, вузький, обмежений"
+               "вузький, тісний, обмежений"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "naught",
+           "transcription": [
+               "/nɔːt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/naught-us.mp3"
+           ],
+           "description": [
+               "нічого, нуль, річ не варта увага"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "naughty",
+           "transcription": [
+               "/ˈnɔːti/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/naughty-us-cot-caught%20merger.mp3"
+           ],
+           "description": [
+               "неслухняний, недобрий, лихий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "nearby",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "довкола, неподалік, поблизу"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "necessary",
+           "transcription": [
+               "/ˈnɛsəsɹɪ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/necessary-us.mp3"
+           ],
+           "description": [
+               "необхідно, необхідність"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "needle",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "голка"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "negligent",
+           "transcription": [
+               "/ˈnɛɡ.lɪ.dʒənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/negligent-us.mp3"
+           ],
+           "description": [
+               "халатний, недбалий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "negotiate",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "домовлятись, вести перегвори"
            ],
            "countOfRepeatWord": 1
        },
@@ -3667,6 +7462,50 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "neither",
+           "transcription": [
+               "/ˈnaɪð.ə(ɹ)/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/neither-au.mp3"
+           ],
+           "description": [
+               "ні, ніякий, жоден"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "nest",
+           "transcription": [
+               "/nɛst/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/nest-us.mp3"
+           ],
+           "description": [
+               "гніздо, свій дім"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "nested",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "вкладені"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "node",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "вузол, точка перетину"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "nomadic",
            "transcription": [
                "/nəʊˈmæd.ɪk/",
@@ -3674,6 +7513,28 @@ const exampleList = {
            ],
            "description": [
                "кочовий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "note",
+           "transcription": [
+               "/nəʊt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/note-us.mp3"
+           ],
+           "description": [
+               "примітка, банкноти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "nowhere",
+           "transcription": [
+               "/ˈnəʊ.wɛə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/nowhere-us.mp3"
+           ],
+           "description": [
+               "ніде, нікуди"
            ],
            "countOfRepeatWord": 1
        },
@@ -3687,9 +7548,31 @@ const exampleList = {
                "численні"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "nurure",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "виховувати, підтримувати"
+           ],
+           "countOfRepeatWord": 1
        }
    ],
    "o": [
+       {
+           "word": "obligate",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "зобов'язаний"
+           ],
+           "countOfRepeatWord": 1
+       },
        {
            "word": "oblige",
            "transcription": [
@@ -3698,6 +7581,17 @@ const exampleList = {
            ],
            "description": [
                "зобов'язувати, робити ласку"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "oblivious",
+           "transcription": [
+               "/əˈblɪ.vi.əs/",
+               null
+           ],
+           "description": [
+               "забутий, непомітний"
            ],
            "countOfRepeatWord": 1
        },
@@ -3713,6 +7607,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "observe",
+           "transcription": [
+               "/əbˈzɝv/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/observe-us.mp3"
+           ],
+           "description": [
+               "спостерігати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "obsessed",
            "transcription": [
                "/əbˈsɛst/",
@@ -3724,13 +7629,79 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "obstacle",
+           "transcription": [
+               "/ˈɒbstəkl̩/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/obstacle-us.mp3"
+           ],
+           "description": [
+               "перешкода, завада"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "obtain",
+           "transcription": [
+               "/əbˈteɪn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/obtain-us.mp3"
+           ],
+           "description": [
+               "отримувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "occasion",
+           "transcription": [
+               "/əˈkeɪʒən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/occasion-us.mp3"
+           ],
+           "description": [
+               "випадок"
+           ],
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "occupy",
+           "transcription": [
+               "/ˈɒkjʊpaɪ/",
+               null
+           ],
+           "description": [
+               "займати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "occur",
            "transcription": [
                "",
                ""
            ],
            "description": [
-               "відбуватися"
+               "відбуватися, траплятися"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "occurrence",
+           "transcription": [
+               "/əˈkɐɹən(t)s/",
+               null
+           ],
+           "description": [
+               "виникнення, подія"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "offence",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "правопорушення, образа"
            ],
            "countOfRepeatWord": 1
        },
@@ -3742,6 +7713,28 @@ const exampleList = {
            ],
            "description": [
                "образити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "onions",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "цибуля"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "onlooker",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "глядач, випадковий свідок"
            ],
            "countOfRepeatWord": 1
        },
@@ -3768,6 +7761,83 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "operate",
+           "transcription": [
+               "/ˈɒpəɹeɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/operate-us.mp3"
+           ],
+           "description": [
+               "працювати, діяти, керувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "opposite",
+           "transcription": [
+               "/ˈɒpəsɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/opposite-us.mp3"
+           ],
+           "description": [
+               "навпаки, проти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "order",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "порядок, замовлення"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "ordinaty",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "звичайний, простий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "orphanages",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "дитдом"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "otherwise",
+           "transcription": [
+               "/ˈʌð.əˌwaɪz/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/otherwise-us.mp3"
+           ],
+           "description": [
+               "інакше"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "ought",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "повинен"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "ougth",
            "transcription": [
                "",
@@ -3775,6 +7845,39 @@ const exampleList = {
            ],
            "description": [
                "повинен, слід, треба"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "outbreak",
+           "transcription": [
+               "/ˈaʊtbɹeɪk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/outbreak-us.mp3"
+           ],
+           "description": [
+               "сполох, бунт"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "outdate",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "застарілий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "outlook",
+           "transcription": [
+               "/ˈaʊtˌlʊk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/outlook-us.mp3"
+           ],
+           "description": [
+               "світогляд"
            ],
            "countOfRepeatWord": 1
        },
@@ -3790,6 +7893,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "outrageous",
+           "transcription": [
+               "/aʊtˈɹeɪdʒəs/",
+               null
+           ],
+           "description": [
+               "обурливо"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "overall",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "в цілому\\халат, спец одяг"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "overcome",
            "transcription": [
                "/ˌəʊvəˈkʌm/",
@@ -3797,6 +7922,28 @@ const exampleList = {
            ],
            "description": [
                "подолати, долати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "overll",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "вцілому"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "owe",
+           "transcription": [
+               "/əʊ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/owe-us.mp3"
+           ],
+           "description": [
+               "заборгувати, бути винним"
            ],
            "countOfRepeatWord": 1
        }
@@ -3810,6 +7957,39 @@ const exampleList = {
            ],
            "description": [
                "друг"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "panties",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "трусики"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "parentheses",
+           "transcription": [
+               "/pəˈɹɛnθəsiːz/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/parentheses-us.mp3"
+           ],
+           "description": [
+               "круглі дужки"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "parse",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "розібрати"
            ],
            "countOfRepeatWord": 1
        },
@@ -3847,6 +8027,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "passage",
+           "transcription": [
+               "/ˈpæsɪd͡ʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/passage-1-us.mp3"
+           ],
+           "description": [
+               "проходження, переїзд, хід, шлях"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "pated",
            "transcription": [
                "",
@@ -3869,6 +8060,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "pavement",
+           "transcription": [
+               "/ˈpeɪvmənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/pavement-uk.mp3"
+           ],
+           "description": [
+               "тротуар, бруківка"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "payment",
+           "transcription": [
+               "/ˈpeɪmənt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/payment-us.mp3"
+           ],
+           "description": [
+               "оплата, сплата"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "pedestrian",
            "transcription": [
                "/pəˈdɛst.ɹi.ən/",
@@ -3880,13 +8093,101 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "pend",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "відкладати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "pending",
+           "transcription": [
+               "/ˈpɛndɪŋ/",
+               null
+           ],
+           "description": [
+               "в очікуні"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "perception",
+           "transcription": [
+               "/pəˈsɛpʃ(ə)n/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/perception-us.mp3"
+           ],
+           "description": [
+               "відчуття, сприйняття"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "permission",
+           "transcription": [
+               "/pəˈmɪʃən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/permission-us.mp3"
+           ],
+           "description": [
+               "дозвіл"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "permit",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "дозволяти"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "persevere",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "витримати, уперто домагатись"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "persistence",
+           "transcription": [
+               "/pəˈsɪst(ə)ns/",
+               null
+           ],
+           "description": [
+               "наполегливість, завзятість"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "persuade",
            "transcription": [
                "/pəˈsweɪd/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/persuade-us.mp3"
            ],
            "description": [
-               "переконувати, вговорювати"
+               "переконувати, вмовляти"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "persuasion",
+           "transcription": [
+               "/pəˈsweɪʒ(ə)n/",
+               null
+           ],
+           "description": [
+               "переконання, переконаність"
            ],
            "countOfRepeatWord": 1
        },
@@ -3898,6 +8199,17 @@ const exampleList = {
            ],
            "description": [
                "бензин"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "pick",
+           "transcription": [
+               "/pɪk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/pick-au.mp3"
+           ],
+           "description": [
+               "вибрати, відщіпнути"
            ],
            "countOfRepeatWord": 1
        },
@@ -3990,6 +8302,17 @@ const exampleList = {
            "countOfRepeatWord": 2
        },
        {
+           "word": "prehistoric",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "доісторичний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "prerequisite",
            "transcription": [
                "/pɹiːˈɹɛkwɪzɪt/",
@@ -3997,6 +8320,28 @@ const exampleList = {
            ],
            "description": [
                "передумова"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "preserve",
+           "transcription": [
+               "/pɹəˈzɜːv/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/preserve-us.mp3"
+           ],
+           "description": [
+               "зберегти, оберігати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "pressure",
+           "transcription": [
+               "[ˈpɹɛʃ.ə(ɹ)]",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/pressure-us.mp3"
+           ],
+           "description": [
+               "тиск, вплив, гніт"
            ],
            "countOfRepeatWord": 1
        },
@@ -4023,6 +8368,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "primary",
+           "transcription": [
+               "/ˈpɹɒeməɹi/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/primary-us.mp3"
+           ],
+           "description": [
+               "первинний, основний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "prime",
+           "transcription": [
+               "/pɹaɪ̯m/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/prime-1-uk.mp3"
+           ],
+           "description": [
+               "головний, первинний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "primogenitor",
            "transcription": [
                "",
@@ -4034,6 +8401,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "process",
+           "transcription": [
+               "/ˈpɹoʊsɛs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/process-1-uk.mp3"
+           ],
+           "description": [
+               "обробка"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "proclaim",
            "transcription": [
                "/pɹoʊˈkleɪm/",
@@ -4041,6 +8419,39 @@ const exampleList = {
            ],
            "description": [
                "проголошувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "production",
+           "transcription": [
+               "/pɹəˈdʌkʃən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/production-uk.mp3"
+           ],
+           "description": [
+               "виробництво, продукція"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "prohibition",
+           "transcription": [
+               "/ˌpɹəʊ(h)ɪˈbɪʃən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/prohibition-us.mp3"
+           ],
+           "description": [
+               "заборона"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "propose",
+           "transcription": [
+               "/pɹəˈpəʊz/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/propose-us.mp3"
+           ],
+           "description": [
+               "пропонувати, освідчуватися"
            ],
            "countOfRepeatWord": 1
        },
@@ -4067,6 +8478,39 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "proximity",
+           "transcription": [
+               "/pɹɑkˈsɪ.mɪ.ti/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/proximity-us.mp3"
+           ],
+           "description": [
+               "близькість, сусідство"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "pull",
+           "transcription": [
+               "/pʊl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/pull-au.mp3"
+           ],
+           "description": [
+               "потягнути"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "pupil",
+           "transcription": [
+               "/ˈpjuːpəl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/pupil-us.mp3"
+           ],
+           "description": [
+               "учень"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "puresue",
            "transcription": [
                "",
@@ -4084,7 +8528,29 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/purpose-us.mp3"
            ],
            "description": [
-               "мета, намір"
+               "намір, мета"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "pursue",
+           "transcription": [
+               "/pəˈʃu/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/pursue-uk.mp3"
+           ],
+           "description": [
+               "переслідувати, ганятись"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "pursue further",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "продовжувати далі"
            ],
            "countOfRepeatWord": 1
        },
@@ -4146,6 +8612,28 @@ const exampleList = {
            "countOfRepeatWord": 2
        },
        {
+           "word": "quarter",
+           "transcription": [
+               "/ˈkoː.tɘ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/quarter-uk.mp3"
+           ],
+           "description": [
+               "квартал, чверть"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "quash",
+           "transcription": [
+               "/kwɒʃ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/quash-us.mp3"
+           ],
+           "description": [
+               "скасувати, анулювати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "quay",
            "transcription": [
                "",
@@ -4196,9 +8684,9 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/quite-1-us.mp3"
            ],
            "description": [
-               "цілком, майже"
+               "цілком, авжеж"
            ],
-           "countOfRepeatWord": 2
+           "countOfRepeatWord": 3
        },
        {
            "word": "quits",
@@ -4214,6 +8702,17 @@ const exampleList = {
    ],
    "r": [
        {
+           "word": "range",
+           "transcription": [
+               "/ɹeɪndʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/range-us.mp3"
+           ],
+           "description": [
+               "ряд, напрямок"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "rank",
            "transcription": [
                "/ɹæŋk/",
@@ -4225,6 +8724,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "rapid",
+           "transcription": [
+               "/ˈɹæpɪd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/rapid-us.mp3"
+           ],
+           "description": [
+               "швидкий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "rapidly",
            "transcription": [
                "/ˈɹæpɪdli/",
@@ -4232,6 +8742,39 @@ const exampleList = {
            ],
            "description": [
                "швидко"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "rare",
+           "transcription": [
+               "[ɹɜɹ]",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/rare-us.mp3"
+           ],
+           "description": [
+               "рідкісний"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "rate",
+           "transcription": [
+               "/ɹeɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/rate-us.mp3"
+           ],
+           "description": [
+               "норма, ставка, рівень"
+           ],
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "rates",
+           "transcription": [
+               "/ɹeɪts/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/rates-us.mp3"
+           ],
+           "description": [
+               "ставка, відсоток"
            ],
            "countOfRepeatWord": 1
        },
@@ -4302,6 +8845,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "reasonable",
+           "transcription": [
+               "/ˈɹiː.zən.ə.bəl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/reasonable-us.mp3"
+           ],
+           "description": [
+               "розумно, розумний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "rebelious",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "непокірний, бунтарський"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "rebellious",
            "transcription": [
                "/ɹəˈbɛliəs/",
@@ -4324,13 +8889,46 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "receive",
+           "transcription": [
+               "/ɹɪˈsiːv/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/receive-us.mp3"
+           ],
+           "description": [
+               "отримати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "receiver",
+           "transcription": [
+               "/ɹəˈsiːvə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/receiver-us.mp3"
+           ],
+           "description": [
+               "приймач, одержувач"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "recent",
            "transcription": [
                "/ˈɹiːsənt/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/recent-us.mp3"
            ],
            "description": [
-               "останній, новий, сучасний"
+               "останній, недавній, сучасний"
+           ],
+           "countOfRepeatWord": 4
+       },
+       {
+           "word": "recently",
+           "transcription": [
+               "/ˈɹiːsəntli/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/recently-us.mp3"
+           ],
+           "description": [
+               "недавно"
            ],
            "countOfRepeatWord": 1
        },
@@ -4353,6 +8951,28 @@ const exampleList = {
            ],
            "description": [
                "перенаправляти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "reed",
+           "transcription": [
+               "/ɹiːd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/reed-us.mp3"
+           ],
+           "description": [
+               "очерет"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "refer",
+           "transcription": [
+               "/ɹɪˈfɜː/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/refer-us.mp3"
+           ],
+           "description": [
+               "посилається"
            ],
            "countOfRepeatWord": 1
        },
@@ -4396,7 +9016,29 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/refuse-1-uk.mp3"
            ],
            "description": [
-               "відмовити"
+               "відмовляти"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "regard",
+           "transcription": [
+               "/ɹɪˈɡɑːd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/regard-us.mp3"
+           ],
+           "description": [
+               "відношення"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "regardless",
+           "transcription": [
+               "/ɹɪˈɡɑːd.lɪs/",
+               null
+           ],
+           "description": [
+               "незалежно від того"
            ],
            "countOfRepeatWord": 1
        },
@@ -4409,7 +9051,18 @@ const exampleList = {
            "description": [
                "жаль, вибачення, розкаяння"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "reject",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "відхилити, не визнавати"
+           ],
+           "countOfRepeatWord": 2
        },
        {
            "word": "related",
@@ -4434,15 +9087,26 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "relief",
+           "transcription": [
+               "/ɹɪˈliːf/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/relief-us.mp3"
+           ],
+           "description": [
+               "полегшення, допомога"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "remain",
            "transcription": [
                "/ɹɪˈmeɪn/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/remain-us.mp3"
            ],
            "description": [
-               "залишатись"
+               "залишатися"
            ],
-           "countOfRepeatWord": 2
+           "countOfRepeatWord": 3
        },
        {
            "word": "remains",
@@ -4452,6 +9116,83 @@ const exampleList = {
            ],
            "description": [
                "залишається"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "remark",
+           "transcription": [
+               "/ɹɪˈmɑːk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/remark-1-us.mp3"
+           ],
+           "description": [
+               "зауваження"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "remarkable",
+           "transcription": [
+               "/ɹɪˈmɑːkəbl̩/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/remarkable-us.mp3"
+           ],
+           "description": [
+               "чудовий, дивоижний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "remote",
+           "transcription": [
+               "[ɹəˈməʊt]",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/remote-us.mp3"
+           ],
+           "description": [
+               "дистанційний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "remove",
+           "transcription": [
+               "/ɹɪˈmuːv/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/remove-au.mp3"
+           ],
+           "description": [
+               "вилучити, видалити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "remunerate",
+           "transcription": [
+               "/ɹɪˈmjuːnəɹeɪt/",
+               null
+           ],
+           "description": [
+               "винагороджувати, оплачувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "repair",
+           "transcription": [
+               "/ɹɪˈpɛə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/repair-us.mp3"
+           ],
+           "description": [
+               "ремонт"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "repetitive",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "повторювані"
            ],
            "countOfRepeatWord": 1
        },
@@ -4464,7 +9205,7 @@ const exampleList = {
            "description": [
                "відповідь"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "request",
@@ -4473,9 +9214,9 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/request-us.mp3"
            ],
            "description": [
-               "домагання, запит, просьба"
+               "прохання, запит"
            ],
-           "countOfRepeatWord": 2
+           "countOfRepeatWord": 5
        },
        {
            "word": "require",
@@ -4484,9 +9225,9 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/require-us.mp3"
            ],
            "description": [
-               "вимагати, потребувати"
+               "вимагати"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "research",
@@ -4496,6 +9237,28 @@ const exampleList = {
            ],
            "description": [
                "дослідження"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "resemble",
+           "transcription": [
+               "/ɹɪˈzɛmb(ə)l/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/resemble-uk.mp3"
+           ],
+           "description": [
+               "нагадувати, бути схожим на когось"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "resilience",
+           "transcription": [
+               "/ɹə.zɪl.ɪ.əns/",
+               null
+           ],
+           "description": [
+               "стійкість"
            ],
            "countOfRepeatWord": 1
        },
@@ -4511,6 +9274,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "resolve",
+           "transcription": [
+               "/ɹiːˈzɒlv/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/resolve-1-us.mp3"
+           ],
+           "description": [
+               "вирішити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "respective",
            "transcription": [
                "/ɹɪˈspɛktɪv/",
@@ -4518,6 +9292,39 @@ const exampleList = {
            ],
            "description": [
                "відповідний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "respectively",
+           "transcription": [
+               "/ɹɪˈspɛktɪvli/",
+               null
+           ],
+           "description": [
+               "відповідно"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "responce",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "відгук, реакція"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "respond",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "реагувати"
            ],
            "countOfRepeatWord": 1
        },
@@ -4531,6 +9338,28 @@ const exampleList = {
                "стримувати, вгамовувати"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "retirement",
+           "transcription": [
+               "/ɹəˈtaɪə(ɹ).mənt/",
+               null
+           ],
+           "description": [
+               "вихід на пенсію"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "reveal",
+           "transcription": [
+               "/ɹəˈviːl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/reveal-au.mp3"
+           ],
+           "description": [
+               "розкрити, розказувати"
+           ],
+           "countOfRepeatWord": 3
        },
        {
            "word": "revision",
@@ -4577,6 +9406,17 @@ const exampleList = {
            "countOfRepeatWord": 2
        },
        {
+           "word": "ridiculous",
+           "transcription": [
+               "/ɹiːˈdɪkjʊləs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/ridiculous-us.mp3"
+           ],
+           "description": [
+               "смішно, обурливо"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "rifle",
            "transcription": [
                "/ˈɹaɪfəl/",
@@ -4599,6 +9439,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "rivalry",
+           "transcription": [
+               "/ˈɹaɪ.vəl.ɹi/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/rivalry-us.mp3"
+           ],
+           "description": [
+               "суперництво, конкуренція"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "roger",
+           "transcription": [
+               "/ˈɹɒdʒə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/roger-us.mp3"
+           ],
+           "description": [
+               "зрозумів, прийнято"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "rotate",
            "transcription": [
                "/ɹəʊˈteɪt/",
@@ -4617,6 +9479,17 @@ const exampleList = {
            ],
            "description": [
                "грубий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "round",
+           "transcription": [
+               "/ˈɹaʊnd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/round-us.mp3"
+           ],
+           "description": [
+               "круг, навколо, раунд"
            ],
            "countOfRepeatWord": 1
        },
@@ -4654,6 +9527,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "rubber",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "гумовий, гума"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "rudder",
            "transcription": [
                "/ˈɹʌdə(ɹ)/",
@@ -4672,6 +9556,17 @@ const exampleList = {
            ],
            "description": [
                "чутка"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "rural",
+           "transcription": [
+               "/ˈɹɔːɹəl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/rural-uk.mp3"
+           ],
+           "description": [
+               "сільський"
            ],
            "countOfRepeatWord": 1
        },
@@ -4722,6 +9617,39 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "sailing",
+           "transcription": [
+               "/ˈseɪ.lɪŋ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/sailing-us.mp3"
+           ],
+           "description": [
+               "вітрильний спорт"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "sake",
+           "transcription": [
+               "/seɪk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/sake-1-us.mp3"
+           ],
+           "description": [
+               "ради"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "sake of",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "заради"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "salary",
            "transcription": [
                "/ˈsælɚi/",
@@ -4733,13 +9661,57 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "sand",
+           "transcription": [
+               "/sænd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/sand-us.mp3"
+           ],
+           "description": [
+               "пісок"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "satisfaction",
            "transcription": [
                "/sætɪsˈfækʃən/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/satisfaction-us.mp3"
            ],
            "description": [
-               "задоволення, виклик на дуель"
+               "задоволення"
+           ],
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "satisfy",
+           "transcription": [
+               "/ˈsætɪsfaɪ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/satisfy-us.mp3"
+           ],
+           "description": [
+               "задовільнити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "save",
+           "transcription": [
+               "/seɪv/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/save-us.mp3"
+           ],
+           "description": [
+               "зберегти, накопичити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "saw",
+           "transcription": [
+               "/sɔː/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/saw-us.mp3"
+           ],
+           "description": [
+               "бачив, пиляти"
            ],
            "countOfRepeatWord": 1
        },
@@ -4755,6 +9727,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "scheme",
+           "transcription": [
+               "/skiːm/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/scheme-us.mp3"
+           ],
+           "description": [
+               "схема"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "scoop",
+           "transcription": [
+               "/skuːp/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/scoop-us.mp3"
+           ],
+           "description": [
+               "совок, ківш"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "scooter",
            "transcription": [
                "/ˈskuːtə(ɹ)/",
@@ -4762,6 +9756,17 @@ const exampleList = {
            ],
            "description": [
                "самокат, скутер"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "scope",
+           "transcription": [
+               "/ˈskoʊp/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/scope-us.mp3"
+           ],
+           "description": [
+               "сфера застосування, маштаб, межі"
            ],
            "countOfRepeatWord": 1
        },
@@ -4788,6 +9793,61 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "scrutinise",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "уважно вивчати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "seat",
+           "transcription": [
+               "/siːt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/seat-us.mp3"
+           ],
+           "description": [
+               "сидіння, усаджувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "seek",
+           "transcription": [
+               "/siːk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/seek-us.mp3"
+           ],
+           "description": [
+               "шукати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "seethe",
+           "transcription": [
+               "/siːð/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/seethe-us.mp3"
+           ],
+           "description": [
+               "варити, кипіти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "seldom",
+           "transcription": [
+               "/ˈsɛldəm/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/seldom-us.mp3"
+           ],
+           "description": [
+               "рідко"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "selfish",
            "transcription": [
                "/ˈsɛlfɪʃ/",
@@ -4795,6 +9855,17 @@ const exampleList = {
            ],
            "description": [
                "егоїстичний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "sell by date",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "дата продажу"
            ],
            "countOfRepeatWord": 1
        },
@@ -4832,13 +9903,101 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "serve",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "слухати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "set aside",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "відкласти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "settle",
            "transcription": [
                "/ˈsɛtəl/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/settle-us.mp3"
            ],
            "description": [
-               "вирішувати, поселятися"
+               "вирішувати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "severe",
+           "transcription": [
+               "/sɪˈvɪə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/severe-uk.mp3"
+           ],
+           "description": [
+               "важкий, суворий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "shame",
+           "transcription": [
+               "/ʃeɪm/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/shame-us.mp3"
+           ],
+           "description": [
+               "ганьба, сором"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "shape",
+           "transcription": [
+               "/ʃeɪp/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/shape-us.mp3"
+           ],
+           "description": [
+               "форма"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "shares",
+           "transcription": [
+               "/ʃɛəz/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/shares-uk.mp3"
+           ],
+           "description": [
+               "акції"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "shelf",
+           "transcription": [
+               "/ʃɛlf/",
+               null
+           ],
+           "description": [
+               "полиця"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "shell",
+           "transcription": [
+               "/ʃɛl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/shell-us.mp3"
+           ],
+           "description": [
+               "оболонка, пакунок"
            ],
            "countOfRepeatWord": 1
        },
@@ -4854,6 +10013,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "shift",
+           "transcription": [
+               "/ʃɪft/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/shift-ca.mp3"
+           ],
+           "description": [
+               "зміна, заміна, міняти, зсовувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "shoot",
            "transcription": [
                "/ʃuːt/",
@@ -4865,15 +10035,103 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "shore",
+           "transcription": [
+               "/ʃɔː/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/shore-us.mp3"
+           ],
+           "description": [
+               "берег"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "shout",
+           "transcription": [
+               "/ʃaʊt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/shout-au.mp3"
+           ],
+           "description": [
+               "кричати, викрикувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "shut",
+           "transcription": [
+               "/ʃʌt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/shut-us.mp3"
+           ],
+           "description": [
+               "закрити, закривати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "sibling",
+           "transcription": [
+               "/ˈsɪblɪŋ/",
+               null
+           ],
+           "description": [
+               "рідний брат\\сестра"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "sight",
+           "transcription": [
+               "/saɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/sight-us.mp3"
+           ],
+           "description": [
+               "зір, вид, поле зору"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "sights",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "пам'ятки"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "sightseing",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "огляд, пам'ятка"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "signboard",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "вивіска"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "significant",
            "transcription": [
                "/sɪɡˈnɪ.fɪ.kənt/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/significant-us.mp3"
            ],
            "description": [
-               "значний, істотний, багатозначний"
+               "значний, істотний"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 3
        },
        {
            "word": "similar",
@@ -4882,7 +10140,51 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/similar-us.mp3"
            ],
            "description": [
-               "подібний, аналогічний"
+               "подібні"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "sink",
+           "transcription": [
+               "/sɪŋk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/sink-uk.mp3"
+           ],
+           "description": [
+               "потонути"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "sitizen",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "громадянин"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "slave",
+           "transcription": [
+               "/sleɪv/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/slave-us.mp3"
+           ],
+           "description": [
+               "раб"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "sled",
+           "transcription": [
+               "/slɛd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/sled-au.mp3"
+           ],
+           "description": [
+               "сани"
            ],
            "countOfRepeatWord": 1
        },
@@ -4893,7 +10195,18 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/slight-us.mp3"
            ],
            "description": [
-               "незначний"
+               "третирувати, нехтування, незначний"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "sligthly",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "злегка"
            ],
            "countOfRepeatWord": 1
        },
@@ -4915,7 +10228,51 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/smooth-us.mp3"
            ],
            "description": [
-               "рівно, гладко"
+               "гладкий, згладжувати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "soil",
+           "transcription": [
+               "/sɔɪl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/soil-us.mp3"
+           ],
+           "description": [
+               "грунт"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "solid",
+           "transcription": [
+               "/ˈsɒlɪd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/solid-us.mp3"
+           ],
+           "description": [
+               "твердий, міцний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "somehow",
+           "transcription": [
+               "/ˈsʌmhaʊ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/somehow-us.mp3"
+           ],
+           "description": [
+               "якось"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "sophisticated",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "винтончений"
            ],
            "countOfRepeatWord": 1
        },
@@ -4953,13 +10310,156 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "spatial",
+           "transcription": [
+               "/ˈspeɪʃəl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/spatial-us.mp3"
+           ],
+           "description": [
+               "просторовий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "spay",
+           "transcription": [
+               "/speɪ/",
+               null
+           ],
+           "description": [
+               "каструвати, стерелізувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "spin",
+           "transcription": [
+               "/spɪn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/spin-au.mp3"
+           ],
+           "description": [
+               "крутитися"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "spit",
+           "transcription": [
+               "/spɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/spit-us.mp3"
+           ],
+           "description": [
+               "плюнити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "spite",
+           "transcription": [
+               "/spaɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/spite-us.mp3"
+           ],
+           "description": [
+               "злоба"
+           ],
+           "countOfRepeatWord": 3
+       },
+       {
+           "word": "spoilt",
+           "transcription": [
+               "/spɔɪlt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/spoilt-uk.mp3"
+           ],
+           "description": [
+               "зіпсований"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "spouse",
+           "transcription": [
+               "/spaʊs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/spouse-us.mp3"
+           ],
+           "description": [
+               "подружжя"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "spread",
            "transcription": [
                "/spɹɛd/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/spread-us.mp3"
            ],
            "description": [
-               "поширення, розносити, намащувати"
+               "поширювати, поширення"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "sspell",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "заклинання, згладжувати, рівняти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "staff",
+           "transcription": [
+               "/ˈstæf/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/staff-1-us.mp3"
+           ],
+           "description": [
+               "персонал, штат"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "stage",
+           "transcription": [
+               "/steɪd͡ʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/stage-uk.mp3"
+           ],
+           "description": [
+               "етап, сцена"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "stale",
+           "transcription": [
+               "/steɪl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/stale-uk.mp3"
+           ],
+           "description": [
+               "несвіжий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "stall",
+           "transcription": [
+               "/stɔːl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/stall-uk.mp3"
+           ],
+           "description": [
+               "стійло, хлів, ларьок"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "stance",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "позиція"
            ],
            "countOfRepeatWord": 1
        },
@@ -4971,6 +10471,50 @@ const exampleList = {
            ],
            "description": [
                "протистояння"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "statement",
+           "transcription": [
+               "/ˈsteɪtm(ə)nt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/statement-us.mp3"
+           ],
+           "description": [
+               "заява, констатування"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "steady",
+           "transcription": [
+               "/ˈstɛdi/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/steady-us.mp3"
+           ],
+           "description": [
+               "стійкий, рівно, стійко"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "steal",
+           "transcription": [
+               "/stiːl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/steal-us.mp3"
+           ],
+           "description": [
+               "вкрасти"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "steel",
+           "transcription": [
+               "/stiːl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/steel-us.mp3"
+           ],
+           "description": [
+               "сталь"
            ],
            "countOfRepeatWord": 1
        },
@@ -4997,6 +10541,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "stock",
+           "transcription": [
+               "/stɒk/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/stock-us.mp3"
+           ],
+           "description": [
+               "запас"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "stock market",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "фондова біржа"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "store",
            "transcription": [
                "/stɔː/",
@@ -5019,13 +10585,68 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "straight",
+           "transcription": [
+               "/stɹeɪt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/straight-au.mp3"
+           ],
+           "description": [
+               "прямий, прямо, рівно"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "strain",
+           "transcription": [
+               "/stɹeɪ̯n/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/strain-us.mp3"
+           ],
+           "description": [
+               "напружувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "stream",
+           "transcription": [
+               "/stɹiːm/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/stream-us.mp3"
+           ],
+           "description": [
+               "потік, течія"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "strenght",
            "transcription": [
                "",
                ""
            ],
            "description": [
+               "сила, міць"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "strength",
+           "transcription": [
+               "/stɹɛŋkθ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/strength-us.mp3"
+           ],
+           "description": [
                "сила, міць, ефективність"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "strive",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "прагнути, боротися, змагатися"
            ],
            "countOfRepeatWord": 1
        },
@@ -5036,9 +10657,42 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/struggle-us.mp3"
            ],
            "description": [
-               "боротьба, зусилля"
+               "боротьба, зусилля, битись, боротись"
            ],
-           "countOfRepeatWord": 3
+           "countOfRepeatWord": 4
+       },
+       {
+           "word": "stubborn",
+           "transcription": [
+               "/ˈstʌbən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/stubborn-uk.mp3"
+           ],
+           "description": [
+               "впертий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "stuff",
+           "transcription": [
+               "/stʌf/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/stuff-au.mp3"
+           ],
+           "description": [
+               "матеріал"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "stunning",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "приголомшений, незрівнянний"
+           ],
+           "countOfRepeatWord": 1
        },
        {
            "word": "stymie",
@@ -5074,6 +10728,50 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "sudden",
+           "transcription": [
+               "/ˈsʌdən/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/sudden-us.mp3"
+           ],
+           "description": [
+               "раптовий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "supper",
+           "transcription": [
+               "/ˈsʌpə/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/supper-us.mp3"
+           ],
+           "description": [
+               "вечеря"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "supply",
+           "transcription": [
+               "/səˈplaɪ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/supply-1-us.mp3"
+           ],
+           "description": [
+               "постачання, запас, поставка"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "surface",
+           "transcription": [
+               "/ˈsɜːfɪs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/surface-us.mp3"
+           ],
+           "description": [
+               "поверхні, поверхневий, земна поверхня"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "surmise",
            "transcription": [
                "",
@@ -5103,6 +10801,28 @@ const exampleList = {
            ],
            "description": [
                "вражаючий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "surround",
+           "transcription": [
+               "/səˈɹaʊnd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/surround-us.mp3"
+           ],
+           "description": [
+               "оточувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "survey",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "опитування"
            ],
            "countOfRepeatWord": 1
        },
@@ -5140,6 +10860,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "swing",
+           "transcription": [
+               "/ˈswɪŋ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/swing-au.mp3"
+           ],
+           "description": [
+               "гойдатися"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "sword",
            "transcription": [
                "/sɔːd/",
@@ -5161,7 +10892,7 @@ const exampleList = {
            "description": [
                "хвіст"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "tailor",
@@ -5197,6 +10928,17 @@ const exampleList = {
            "countOfRepeatWord": 2
        },
        {
+           "word": "taught",
+           "transcription": [
+               "/tɔːt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/taught-uk.mp3"
+           ],
+           "description": [
+               "навчив"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "taxi rank",
            "transcription": [
                "",
@@ -5204,6 +10946,17 @@ const exampleList = {
            ],
            "description": [
                "стоянка таксі"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "tears",
+           "transcription": [
+               "/tiːɹz/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/tears-us.mp3"
+           ],
+           "description": [
+               "сльози"
            ],
            "countOfRepeatWord": 1
        },
@@ -5241,6 +10994,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "temporary",
+           "transcription": [
+               "/ˈtɛmpəɹi/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/temporary-us.mp3"
+           ],
+           "description": [
+               "тимчасовий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "tenet",
            "transcription": [
                "/ˈtɛnət/",
@@ -5248,6 +11012,17 @@ const exampleList = {
            ],
            "description": [
                "принцип, доктрина, переконання"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "tension",
+           "transcription": [
+               "/ˈtɛnʃən/",
+               null
+           ],
+           "description": [
+               "напруга"
            ],
            "countOfRepeatWord": 1
        },
@@ -5274,15 +11049,48 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "therefore",
+           "transcription": [
+               "/ˈðɛəfɔː/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/therefore-us.mp3"
+           ],
+           "description": [
+               "тому, отже, внаслідок цього"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "thick",
+           "transcription": [
+               "/θɪk/",
+               null
+           ],
+           "description": [
+               "товстий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "thin",
+           "transcription": [
+               "/ˈθɪn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/thin-us.mp3"
+           ],
+           "description": [
+               "тонкий, худий"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "thorough",
            "transcription": [
                "/ˈθʌɹə/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/thorough-uk.mp3"
            ],
            "description": [
-               "ретельний, скрупульозний"
+               "ретельний, грунтовний"
            ],
-           "countOfRepeatWord": 3
+           "countOfRepeatWord": 4
        },
        {
            "word": "though",
@@ -5291,7 +11099,18 @@ const exampleList = {
                "https://api.dictionaryapi.dev/media/pronunciations/en/though-us.mp3"
            ],
            "description": [
-               "хоча, все-таки"
+               "хоча"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "thought",
+           "transcription": [
+               "/θɔːt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/thought-us.mp3"
+           ],
+           "description": [
+               "думав"
            ],
            "countOfRepeatWord": 1
        },
@@ -5307,6 +11126,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "throat",
+           "transcription": [
+               "/ˈθɹəʊt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/throat-us.mp3"
+           ],
+           "description": [
+               "горло"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "throng",
            "transcription": [
                "/θɹɒŋ/",
@@ -5318,15 +11148,114 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "through",
+           "transcription": [
+               "/θɹuː/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/through-1-us.mp3"
+           ],
+           "description": [
+               "через, крізь"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "throughout",
+           "transcription": [
+               "/θɹuˈʌʊt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/throughout-us.mp3"
+           ],
+           "description": [
+               "всюди, весь час"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "throughtout",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "всюди, усюди"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "throw",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "кинути"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "thus",
            "transcription": [
                "/ˈðʌs/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/thus-us.mp3"
            ],
            "description": [
-               "таким чином, отже"
+               "таким чином"
            ],
-           "countOfRepeatWord": 3
+           "countOfRepeatWord": 4
+       },
+       {
+           "word": "tie",
+           "transcription": [
+               "/taɪ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/tie-au.mp3"
+           ],
+           "description": [
+               "краватка, вузол"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "tight",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "туго"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "till",
+           "transcription": [
+               "/tɪl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/till-us.mp3"
+           ],
+           "description": [
+               "допоки"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "tilt",
+           "transcription": [
+               "/tɪlt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/tilt-uk.mp3"
+           ],
+           "description": [
+               "нахил"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "tiny",
+           "transcription": [
+               "/ˈtaɪni/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/tiny-us.mp3"
+           ],
+           "description": [
+               "крихітний"
+           ],
+           "countOfRepeatWord": 1
        },
        {
            "word": "tired(exhausted)",
@@ -5351,15 +11280,26 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "tough",
+           "transcription": [
+               "/tʌf/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/tough-us.mp3"
+           ],
+           "description": [
+               "жорсткий, міцний"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
            "word": "toward",
            "transcription": [
                "/tɘ.ˈwoːd/",
                "https://api.dictionaryapi.dev/media/pronunciations/en/toward-us.mp3"
            ],
            "description": [
-               "назустріч, до(про рух)"
+               "назустріч"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 3
        },
        {
            "word": "trace",
@@ -5369,6 +11309,17 @@ const exampleList = {
            ],
            "description": [
                "слід"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "traitor",
+           "transcription": [
+               "/ˈtɹeɪtə(ɹ)/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/traitor-us.mp3"
+           ],
+           "description": [
+               "зрадник"
            ],
            "countOfRepeatWord": 1
        },
@@ -5384,6 +11335,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "tramp",
+           "transcription": [
+               "/tɹæmp/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/tramp-au.mp3"
+           ],
+           "description": [
+               "бродяга"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "tranquility",
            "transcription": [
                "",
@@ -5391,6 +11353,28 @@ const exampleList = {
            ],
            "description": [
                "спокій, урівноваженість"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "transcribe",
+           "transcription": [
+               "/trænˈskɹaɪb/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/transcribe-us.mp3"
+           ],
+           "description": [
+               "переписувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "transfer",
+           "transcription": [
+               "/ˈtɹænzfɜː/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/transfer-uk-verb.mp3"
+           ],
+           "description": [
+               "передавання, перенесення"
            ],
            "countOfRepeatWord": 1
        },
@@ -5428,6 +11412,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "treat",
+           "transcription": [
+               "/tɹiːt/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/treat-us.mp3"
+           ],
+           "description": [
+               "лікувати, відноситися"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "trickery",
            "transcription": [
                "",
@@ -5457,6 +11452,17 @@ const exampleList = {
            ],
            "description": [
                "котити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "turn",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "повертати"
            ],
            "countOfRepeatWord": 1
        }
@@ -5540,6 +11546,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "unless",
+           "transcription": [
+               "/ənˈlɛs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/unless-us.mp3"
+           ],
+           "description": [
+               "хіба що, якщо не"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "unpleasant(disgusting)",
            "transcription": [
                "",
@@ -5547,6 +11564,39 @@ const exampleList = {
            ],
            "description": [
                "огидний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "upon",
+           "transcription": [
+               "/əˈpɒn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/upon-us.mp3"
+           ],
+           "description": [
+               "на чомусь, після чогось"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "urgently",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "терміново"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "usage",
+           "transcription": [
+               "/ˈjuːsɪd͡ʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/usage-us.mp3"
+           ],
+           "description": [
+               "використання, вживання"
            ],
            "countOfRepeatWord": 1
        },
@@ -5560,9 +11610,31 @@ const exampleList = {
                "корисна річ, дешевий"
            ],
            "countOfRepeatWord": 1
+       },
+       {
+           "word": "utilize",
+           "transcription": [
+               "/ˈjuːtɨlaɪz/",
+               null
+           ],
+           "description": [
+               "використовувати, утилізувати"
+           ],
+           "countOfRepeatWord": 1
        }
    ],
    "v": [
+       {
+           "word": "vain",
+           "transcription": [
+               "/veɪn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/vain-us.mp3"
+           ],
+           "description": [
+               "марнославність, даремний, пихатий, пустий"
+           ],
+           "countOfRepeatWord": 1
+       },
        {
            "word": "van",
            "transcription": [
@@ -5582,6 +11654,28 @@ const exampleList = {
            ],
            "description": [
                "змінна"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "variety",
+           "transcription": [
+               "/vəˈɹaɪ.ɪ.ti/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/variety-us.mp3"
+           ],
+           "description": [
+               "різноманітність"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "various",
+           "transcription": [
+               "/ˈvɛə.ɹi.əs/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/various-us.mp3"
+           ],
+           "description": [
+               "різні"
            ],
            "countOfRepeatWord": 2
        },
@@ -5641,6 +11735,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "violence",
+           "transcription": [
+               "/ˈvaɪləns/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/violence-us.mp3"
+           ],
+           "description": [
+               "насильство"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "vision",
            "transcription": [
                "/ˈvɪ.ʒ(ə)n/",
@@ -5648,6 +11753,17 @@ const exampleList = {
            ],
            "description": [
                "зір, бачення"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "vital",
+           "transcription": [
+               "/ˈvaɪt̬əl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/vital-us.mp3"
+           ],
+           "description": [
+               "життєвоважливий"
            ],
            "countOfRepeatWord": 1
        },
@@ -5676,6 +11792,17 @@ const exampleList = {
    ],
    "w": [
        {
+           "word": "wage",
+           "transcription": [
+               "/weɪd͡ʒ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/wage-us.mp3"
+           ],
+           "description": [
+               "зарплата"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "ward",
            "transcription": [
                "/wɔːd/",
@@ -5683,6 +11810,17 @@ const exampleList = {
            ],
            "description": [
                "палата, вартувати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "warn",
+           "transcription": [
+               "/wɔːn/",
+               null
+           ],
+           "description": [
+               "попередити"
            ],
            "countOfRepeatWord": 1
        },
@@ -5698,6 +11836,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "waste",
+           "transcription": [
+               "/weɪst/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/waste-us.mp3"
+           ],
+           "description": [
+               "відходи"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "wave",
+           "transcription": [
+               "/weɪv/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/wave-us.mp3"
+           ],
+           "description": [
+               "хвиля, махати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "weight",
            "transcription": [
                "/weɪt/",
@@ -5705,6 +11865,17 @@ const exampleList = {
            ],
            "description": [
                "вага"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "went on sale",
+           "transcription": [
+               "",
+               ""
+           ],
+           "description": [
+               "надійшов у продаж"
            ],
            "countOfRepeatWord": 1
        },
@@ -5731,6 +11902,17 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "whole",
+           "transcription": [
+               "/həʊl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/whole-us.mp3"
+           ],
+           "description": [
+               "ціле"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "wide",
            "transcription": [
                "/wɑed/",
@@ -5739,7 +11921,7 @@ const exampleList = {
            "description": [
                "широкий"
            ],
-           "countOfRepeatWord": 1
+           "countOfRepeatWord": 2
        },
        {
            "word": "wild",
@@ -5749,6 +11931,61 @@ const exampleList = {
            ],
            "description": [
                "дикий"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "willing",
+           "transcription": [
+               "/ˈwɪlɪŋ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/willing-us.mp3"
+           ],
+           "description": [
+               "бажаючий, добровільний"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "wind",
+           "transcription": [
+               "/ˈwaɪnd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/wind-1-uk.mp3"
+           ],
+           "description": [
+               "вітер \\ намотувати, мотати"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "wing",
+           "transcription": [
+               "/wɪŋ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/wing-us.mp3"
+           ],
+           "description": [
+               "крило"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "wipe",
+           "transcription": [
+               "/waɪp/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/wipe-us.mp3"
+           ],
+           "description": [
+               "витирати"
+           ],
+           "countOfRepeatWord": 2
+       },
+       {
+           "word": "within",
+           "transcription": [
+               "/wɪˈθɪn/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/within-us.mp3"
+           ],
+           "description": [
+               "в межах, в думці, всередині"
            ],
            "countOfRepeatWord": 1
        },
@@ -5775,6 +12012,28 @@ const exampleList = {
            "countOfRepeatWord": 1
        },
        {
+           "word": "worth",
+           "transcription": [
+               "/wɜːθ/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/worth-us.mp3"
+           ],
+           "description": [
+               "варто"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "wound",
+           "transcription": [
+               "/wuːnd/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/wound-1-us.mp3"
+           ],
+           "description": [
+               "рана, ранити"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
            "word": "wroth",
            "transcription": [
                "/ɹɒθ/",
@@ -5796,6 +12055,17 @@ const exampleList = {
            ],
            "description": [
                "яхта"
+           ],
+           "countOfRepeatWord": 1
+       },
+       {
+           "word": "yell",
+           "transcription": [
+               "/jɛl/",
+               "https://api.dictionaryapi.dev/media/pronunciations/en/yell-us.mp3"
+           ],
+           "description": [
+               "кричати, верещати, волати"
            ],
            "countOfRepeatWord": 1
        }

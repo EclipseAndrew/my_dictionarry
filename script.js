@@ -416,7 +416,7 @@ const deleteOldWordList = () => {
       const paragraphs = container.querySelectorAll("p");
       paragraphs.forEach((p) => p.remove());
    });
-};
+}; 
 
 JSON.parse(localStorage.getItem("wordsList"))
    ? JSON.parse(localStorage.getItem("wordsList"))
