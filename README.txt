@@ -1,4 +1,4 @@
-Name: ("My dictionarry")[https://eclipseandrew.github.io/my_dictionarry/] 
+Name: ["My dictionarry"](https://eclipseandrew.github.io/my_dictionarry/)
 
 This mini project I begined because of I had a lot of dictionaries and I wanted to do some structural my that all.
 
